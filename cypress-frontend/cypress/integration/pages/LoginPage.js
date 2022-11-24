@@ -1,13 +1,14 @@
 import BasePage from "./BasePage";
 const basePage = new BasePage;
 
-<<<<<<< HEAD
+
 const userLogin = "#ap_email";//#ap_custumer_name
 let msgErro = "#auth-error-message-box > div > h4";
 let btnContinuar = "#continue";
 let msgBranco = "#auth-email-missing-alert > div > div";
 let password = "#ap_password";
 let btnLogar = "#signInSubmit";
+let btnCriarConta = "#createAccountSubmit";
 
 const emailInvalido = "hahaha";
 const telefoneInvalido = "-1";
@@ -59,14 +60,9 @@ export default class LoginPage{
 
     validarLogin() {
         basePage.validarUrl("ref=nav_ya_signin")
-=======
-let btnCriarConta = "#createAccountSubmit";
-
-export default class LoginPage {
+    }
 
     clicarNoBtnCriarConta() {
         basePage.click(btnCriarConta);
->>>>>>> 6c3f2bcf077dc3ad91c101da3c46332b7fac9ef5
     }
-
 }
