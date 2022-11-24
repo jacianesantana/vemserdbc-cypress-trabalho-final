@@ -21,11 +21,13 @@ let msgRemoveItem = "#sc-item-aacfa5b5-05c5-48d9-86ac-5ad66a007b66 > div.a-secti
 let btnRemoveCompra = ".sc-action-delete > .a-declarative > .a-color-link";
 let btnSelecioneEndereco = "#nav-global-location-popover-link";
 
+
 const pesquisaValida = "ryzen 7";   
 const pesquisaInvalida = "aoishdoiawyhrfoiqwuerphjqwlfdjqklrfjqpwore";
 const msgAddCarrinhoValido = "Adicionado ao carrinho";
 const msgCarrinhoVazioValido = "Seu carrinho de compras da Amazon está vazio.";
 const msgRemoverProdutoValido = "foi removido de Carrinho de compras.";
+
 
 export default class HomePage{
 
@@ -130,5 +132,7 @@ export default class HomePage{
     clicarNoBtnSelecioneEndereco() {
         basePage.click(btnSelecioneEndereco);
     }
+
+
 
 }

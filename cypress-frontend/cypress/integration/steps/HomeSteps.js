@@ -85,17 +85,6 @@ Then(/^devo visualizar o checkbox selecionado no carrinho$/, () => {
     homePage.validarCheckbox();
 });
 
-And("preencho campo com email inválido", ()=>{
-    ;
-});
-
-When(/^clico no botão 'Continuar'$/, () => {
-	return true;
-});
-
-Then(/^devo receber mensagem de erro padrão 'Não encontramos uma conta associada a este endereço de e-mail'$/, () => {
-	return true;
-});
 
 Given("que estou na página Home", ()=>{
 	homePage.validarUrlHome();
