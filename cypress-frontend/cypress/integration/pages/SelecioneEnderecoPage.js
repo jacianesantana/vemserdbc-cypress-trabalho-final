@@ -6,7 +6,6 @@ import { cep } from '../../fixtures/massa-de-dados';
 let campoUmCEP = "#GLUXZipUpdateInput_0";
 let campoDoisCEP = "#GLUXZipUpdateInput_1";
 let btnConfirmar = "#GLUXZipUpdate";
-let textCEP = "";
 let textMsgErroCEP = "#GLUXZipError";
 
 export default class SelecioneEnderecoPage {
@@ -15,16 +14,20 @@ export default class SelecioneEnderecoPage {
         basePage.preencherInput(campoUmCEP, cep.cepCampoUm);
     }
 
+    preencherCampoUmCEPInvalido() {
+        basePage.preencherInput(campoUmCEP, cep.cepCampoUmInvalido);
+    }
+
     preencherCampoDoisCEP() {
         basePage.preencherInput(campoDoisCEP, cep.cepCampoDois);
     }
 
-    clicarNoBtnConfirmar() {
-        basePage.click(btnConfirmar);
+    preencherCampoDoisCEPInvalido() {
+        basePage.preencherInput(campoDoisCEP, cep.cepCampoDoisInvalido);
     }
 
-    validarCEPNaTela() {
-        basePage.validarText(textCEP, "");
+    clicarNoBtnConfirmar() {
+        basePage.click(btnConfirmar);
     }
 
     validarMsgsErroCEP() {
