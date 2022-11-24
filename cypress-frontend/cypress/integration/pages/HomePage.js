@@ -1,6 +1,8 @@
 import BasePage from "./BasePage";
 const basePage = new BasePage;
 
+import { cep } from '../../fixtures/massa-de-dados';
+
 let searchBar = "#twotabsearchtextbox";
 let btnSearch = "#nav-search-submit-button";
 let resultSearch = "#search > span > div > h1 > div > div.sg-col-14-of-20.sg-col.s-breadcrumb.sg-col-10-of-16.sg-col-6-of-12 > div > div";
@@ -20,6 +22,7 @@ let msgCarrinhoVazio = "#sc-active-cart > div > div > div > h1"
 let msgRemoveItem = "#sc-item-aacfa5b5-05c5-48d9-86ac-5ad66a007b66 > div.a-section.a-spacing-none.ewc-wider-compact-view-only.ewc-item-actions > div.a-section.ewc-item-remove-msg";
 let btnRemoveCompra = ".sc-action-delete > .a-declarative > .a-color-link";
 let btnSelecioneEndereco = "#nav-global-location-popover-link";
+let btnMenuTodos = "#nav-hamburger-menu";
 
 
 const pesquisaValida = "ryzen 7";   
@@ -133,6 +136,17 @@ export default class HomePage{
         basePage.click(btnSelecioneEndereco);
     }
 
+<<<<<<< HEAD
 
+=======
+    validarCEPNaTela() {
+        basePage.tempo(5000);
+        basePage.validarText(btnSelecioneEndereco, cep.cep);
+    }
+
+    clicarNoBtnMenuTodos() {
+        basePage.click(btnMenuTodos);
+    }
+>>>>>>> 6c3f2bcf077dc3ad91c101da3c46332b7fac9ef5
 
 }

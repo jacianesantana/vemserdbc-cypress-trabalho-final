@@ -1,6 +1,7 @@
 import LoginPage from "../pages/LoginPage";
 const loginPage = new LoginPage;
 
+<<<<<<< HEAD
 And("preencho campo com email inválido", ()=>{
     loginPage.preencherEmailInvalido();
 });
@@ -48,3 +49,12 @@ Then(/^devo estar logado no sistema e visualizar mensagem de boas vindas$/, () =
 And("preencho campo com número de telefone válido", ()=>{
     loginPage.preencherTelefoneValido();
 });
+=======
+context('Login', () => {
+      
+    And("clico em Criar sua conta da Amazon", () => {
+        loginPage.clicarNoBtnCriarConta();
+    });
+
+})
+>>>>>>> 6c3f2bcf077dc3ad91c101da3c46332b7fac9ef5

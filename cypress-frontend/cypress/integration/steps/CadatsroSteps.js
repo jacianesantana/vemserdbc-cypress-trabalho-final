@@ -2,10 +2,6 @@ import CadastroPage from "../pages/CadastroPage";
 const cadastroPage = new CadastroPage;
 
 context('Cadastro', () => {
-      
-    And("clico em Criar sua conta da Amazon", () => {   // transferir para login
-        cadastroPage.clicarNoBtnCriarConta();
-    });
 
     And("preencho todos os campos válidos e email válido", () => {
         cadastroPage.preencherNome();

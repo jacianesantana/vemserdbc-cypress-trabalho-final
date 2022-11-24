@@ -12,8 +12,9 @@ const cadastro = {
 }
 
 const cep = {
-  "cepCampoUm": 41999,
-  "cepCampoDois": 999,
+  "cep": "49063106",
+  "cepCampoUm": 49063,
+  "cepCampoDois": 106,
   "cepCampoUmInvalido": "abcde",
   "cepCampoDoisInvalido": "fgh"
 }

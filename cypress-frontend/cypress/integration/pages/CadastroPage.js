@@ -3,7 +3,6 @@ const basePage = new BasePage;
 
 import { cadastro } from '../../fixtures/massa-de-dados';
 
-let btnCriarConta = "#createAccountSubmit";
 let nome = "#ap_customer_name";
 let textMsgErroNomeVazio = "#auth-customerName-missing-alert";
 let celularOuEmail = "#ap_email";
@@ -19,10 +18,6 @@ let textVerificaEmail = "#verification-code-form > div:nth-child(10) > div.a-row
 let textCaptchVerificaEmail = "#a-page > div > div > div > div > div.a-row.a-spacing-mini";
 
 export default class CadastroPage {
-
-    clicarNoBtnCriarConta() {   // Colocar em Login
-        basePage.click(btnCriarConta);
-    }
 
     preencherNome() {
         basePage.preencherInput(nome, cadastro.nome);
@@ -57,7 +52,7 @@ export default class CadastroPage {
     }
 
     clicarNoBtnContinuar() {
-        basePage.click(btnContinuar);
+        basePage.clickForce(btnContinuar);
     }
 
     validarPaginaCadastroComEmail() {
