@@ -1,0 +1,150 @@
+{
+  "uid" : "e561472172243ff5",
+  "name" : "Validar tentativa de cadastro sem preencher campos obrigatórios",
+  "fullName" : "Validar tentativa de cadastro sem preencher campos obrigatórios",
+  "historyId" : "7668e0c1e5b3352e9a2a5ef6d00a03d4",
+  "time" : {
+    "start" : 1669302667163,
+    "stop" : 1669302668163,
+    "duration" : 1000
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.\n    at BasePage.click (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:84:10)\n    at HomePage.clicarNoBtnInicioLogin (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:311:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:822:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:16454:35)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.\n    at BasePage.click (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:84:10)\n    at HomePage.clicarNoBtnInicioLogin (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:311:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:822:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:16454:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302667163,
+        "stop" : 1669302667653,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302667194,
+          "stop" : 1669302667653,
+          "duration" : 459
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302667667,
+        "stop" : 1669302667671,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico em Fazer Login",
+      "time" : {
+        "start" : 1669302667671,
+        "stop" : 1669302668162,
+        "duration" : 491
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #nav-link-accountList",
+        "time" : {
+          "start" : 1669302667671,
+          "stop" : 1669302668162,
+          "duration" : 491
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cadastro"
+  }, {
+    "name" : "feature",
+    "value" : "Cadastro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste falhado",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5962e8c3a5fd02bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669301495252,
+          "stop" : 1669301501015,
+          "duration" : 5763
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e561472172243ff5.json",
+  "parameterValues" : [ ]
+}

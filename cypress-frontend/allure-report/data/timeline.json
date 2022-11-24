@@ -1,5 +1,382 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "children" : [ ],
-  "name" : "timeline"
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Validar Search com sucesso",
+    "uid" : "d4508ed7fe919d83",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302868938,
+      "stop" : 1669302870305,
+      "duration" : 1367
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de login com email inválido",
+    "uid" : "c58f6eb439ef547f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302781813,
+      "stop" : 1669302782833,
+      "duration" : 1020
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar exclusão de item no Carrinho com sucesso",
+    "uid" : "bb9997efd73c7ba8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302712265,
+      "stop" : 1669302736594,
+      "duration" : 24329
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de cadastro sem preencher campos obrigatórios",
+    "uid" : "e561472172243ff5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302667163,
+      "stop" : 1669302668163,
+      "duration" : 1000
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de Selecione o Endereço sem preencher campo CEP",
+    "uid" : "829aa0d82e754128",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302941298,
+      "stop" : 1669302953789,
+      "duration" : 12491
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar item da opção 'Conteúdo Digital e Dispositivos' do menu Todos com sucesso",
+    "uid" : "aedc05bc52b1223",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302833579,
+      "stop" : 1669302835168,
+      "duration" : 1589
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de cadastro sem preencher confirmação de senha",
+    "uid" : "b8cf8f12cadeec32",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302669254,
+      "stop" : 1669302670200,
+      "duration" : 946
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de cadastro com número de telefone inválido",
+    "uid" : "afaeeba05c7052cc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302677725,
+      "stop" : 1669302685496,
+      "duration" : 7771
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar opção 'Produtos em alta' do menu Todos com sucesso",
+    "uid" : "a8e5d421ed03a734",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302822479,
+      "stop" : 1669302833487,
+      "duration" : 11008
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar checkbox no Carrinho com sucesso",
+    "uid" : "e73e1256f13cb2e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302736701,
+      "stop" : 1669302756485,
+      "duration" : 19784
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de cadastro com email inválido",
+    "uid" : "d2b03d1f4fa6c2e4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302670228,
+      "stop" : 1669302677658,
+      "duration" : 7430
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar opção 'Mais Vendidos' do menu Todos com sucesso",
+    "uid" : "9a26c4bdf53416d8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302810782,
+      "stop" : 1669302812173,
+      "duration" : 1391
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar item da opção 'Programas e Recursos' do menu Todos com sucesso",
+    "uid" : "c1e864ace4ec1902",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302836210,
+      "stop" : 1669302837244,
+      "duration" : 1034
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de Selecione o Endereço preenchendo campo com caracteres inválidos",
+    "uid" : "37c879e73950dd66",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302933085,
+      "stop" : 1669302941210,
+      "duration" : 8125
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar cadastro com email com sucesso",
+    "uid" : "f7cbee89c8c6b5bd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302663393,
+      "stop" : 1669302665970,
+      "duration" : 2577
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar inserção de produto no Carrinho com sucesso",
+    "uid" : "c2fc9caadfad9b71",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302709303,
+      "stop" : 1669302710932,
+      "duration" : 1629
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar link salvo para mais tarde no Carrinho com sucesso",
+    "uid" : "d029a9a0bd7dd05f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302711134,
+      "stop" : 1669302712227,
+      "duration" : 1093
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar item da opção 'Ajuda e Configurações' do menu Todos com sucesso",
+    "uid" : "406e722430b9e8d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302837270,
+      "stop" : 1669302846987,
+      "duration" : 9717
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar item da opção 'Comprar por Categoria' do menu Todos com sucesso",
+    "uid" : "31c9973e7511d3c5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302835196,
+      "stop" : 1669302836183,
+      "duration" : 987
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar cadastro com telefone com sucesso",
+    "uid" : "e78b84579aa47e88",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302666027,
+      "stop" : 1669302667127,
+      "duration" : 1100
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar login com número de telefone com sucesso",
+    "uid" : "b99fd5ef1b072b32",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302780772,
+      "stop" : 1669302781783,
+      "duration" : 1011
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar action \"ENTRAR\"",
+    "uid" : "d408e84b5a0be862",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302779026,
+      "stop" : 1669302780712,
+      "duration" : 1686
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar Selecione o Endereço com sucesso preenchendo CEP válido",
+    "uid" : "bd5574fe3182afbb",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302891338,
+      "stop" : 1669302914588,
+      "duration" : 23250
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar opção 'Novidades na Amazon' do menu Todos com sucesso",
+    "uid" : "55f0e1554ea961a4",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302812245,
+      "stop" : 1669302822401,
+      "duration" : 10156
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de Selecione o Endereço preenchendo campo com CEP invalido",
+    "uid" : "a5b514545bf5bb22",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1669302914983,
+      "stop" : 1669302933027,
+      "duration" : 18044
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de cadastro com senhas diferentes",
+    "uid" : "e5f67fb413c20776",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302668188,
+      "stop" : 1669302669227,
+      "duration" : 1039
+    },
+    "flaky" : false,
+    "newFailed" : true,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de login com número de telefone inválido",
+    "uid" : "e9d072d91b5e3ff7",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302782877,
+      "stop" : 1669302787201,
+      "duration" : 4324
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de login sem preencher campo",
+    "uid" : "2412b7fc3943420e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302787253,
+      "stop" : 1669302788323,
+      "duration" : 1070
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Validar tentativa de Search preenchendo com nome inválido",
+    "uid" : "585827407e507116",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1669302870377,
+      "stop" : 1669302871375,
+      "duration" : 998
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
 }

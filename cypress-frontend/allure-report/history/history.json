@@ -1,1 +1,808 @@
-{ }
+{
+  "da5353ba3c1440d6f5347dc9f1d5a9c0" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "829aa0d82e754128",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302941298,
+        "stop" : 1669302953789,
+        "duration" : 12491
+      }
+    }, {
+      "uid" : "be5da2b22c9b3093",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-global-location-popover-link`, but never found it.",
+      "time" : {
+        "start" : 1669301766971,
+        "stop" : 1669301773024,
+        "duration" : 6053
+      }
+    } ]
+  },
+  "46aa695b0a17c497cd2591d721594717" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a8e5d421ed03a734",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302822479,
+        "stop" : 1669302833487,
+        "duration" : 11008
+      }
+    }, {
+      "uid" : "9d423e150d1841c0",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669301648602,
+        "stop" : 1669301649699,
+        "duration" : 1097
+      }
+    } ]
+  },
+  "4a2ef18f276c335c18bd1611dea15cb9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bb9997efd73c7ba8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302712265,
+        "stop" : 1669302736594,
+        "duration" : 24329
+      }
+    } ]
+  },
+  "bb73f5a70306437e8c2efd8c2890fbf9" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e9d072d91b5e3ff7",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#auth-error-message-box > div > h4`, but never found it.",
+      "time" : {
+        "start" : 1669302782877,
+        "stop" : 1669302787201,
+        "duration" : 4324
+      }
+    }, {
+      "uid" : "a10ba9d55ade44b",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301609625,
+        "stop" : 1669301610664,
+        "duration" : 1039
+      }
+    } ]
+  },
+  "28cd8fbe35aa2de90bb877ea4c0b9533" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a5b514545bf5bb22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302914983,
+        "stop" : 1669302933027,
+        "duration" : 18044
+      }
+    }, {
+      "uid" : "3d42a89149ffe5dc",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-global-location-popover-link`, but never found it.",
+      "time" : {
+        "start" : 1669301753844,
+        "stop" : 1669301760857,
+        "duration" : 7013
+      }
+    } ]
+  },
+  "c3e6206bc4aec4f9a54aa9f0cf4c5e58" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b99fd5ef1b072b32",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302780772,
+        "stop" : 1669302781783,
+        "duration" : 1011
+      }
+    }, {
+      "uid" : "5b3aa30930d0a428",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301605168,
+        "stop" : 1669301606188,
+        "duration" : 1020
+      }
+    } ]
+  },
+  "151a7e9b6d690b103d662c40ee7f064b" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c1e864ace4ec1902",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669302836210,
+        "stop" : 1669302837244,
+        "duration" : 1034
+      }
+    }, {
+      "uid" : "242cd7fafa606103",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669301661265,
+        "stop" : 1669301662910,
+        "duration" : 1645
+      }
+    } ]
+  },
+  "156f76607aa23bbbbb2783cd8e4f06c3" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d029a9a0bd7dd05f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+      "time" : {
+        "start" : 1669302711134,
+        "stop" : 1669302712227,
+        "duration" : 1093
+      }
+    }, {
+      "uid" : "d644d06f5b84ddfc",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `[data-asin=\"B091J3NYVF\"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-spacing-base > .a-spacing-micro > .s-title-instructions-style > .a-size-mini > .a-link-normal > .a-size-base-plus`, but never found it.",
+      "time" : {
+        "start" : 1669301571610,
+        "stop" : 1669301578953,
+        "duration" : 7343
+      }
+    } ]
+  },
+  "7668e0c1e5b3352e9a2a5ef6d00a03d4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e561472172243ff5",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302667163,
+        "stop" : 1669302668163,
+        "duration" : 1000
+      }
+    }, {
+      "uid" : "5962e8c3a5fd02bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301495252,
+        "stop" : 1669301501015,
+        "duration" : 5763
+      }
+    } ]
+  },
+  "385f8b0539389fcf9722fbeb6d73b668" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "bd5574fe3182afbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302891338,
+        "stop" : 1669302914588,
+        "duration" : 23250
+      }
+    }, {
+      "uid" : "325773fdf431640e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301730196,
+        "stop" : 1669301753393,
+        "duration" : 23197
+      }
+    } ]
+  },
+  "21ffaee5bce54f22ab07fc23acc2b987" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d408e84b5a0be862",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302779026,
+        "stop" : 1669302780712,
+        "duration" : 1686
+      }
+    }, {
+      "uid" : "ea4f7107f72590b7",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301603372,
+        "stop" : 1669301605109,
+        "duration" : 1737
+      }
+    } ]
+  },
+  "7f0171caf04f9f758850151d3509b256" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "b8cf8f12cadeec32",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302669254,
+        "stop" : 1669302670200,
+        "duration" : 946
+      }
+    }, {
+      "uid" : "ccc931104ed17338",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301507288,
+        "stop" : 1669301508731,
+        "duration" : 1443
+      }
+    } ]
+  },
+  "d452e4d91210436f27e66e2d90fcf2ce" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d2b03d1f4fa6c2e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302670228,
+        "stop" : 1669302677658,
+        "duration" : 7430
+      }
+    }, {
+      "uid" : "f6d38549a439c4dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301508756,
+        "stop" : 1669301513940,
+        "duration" : 5184
+      }
+    } ]
+  },
+  "2e64f7ba35d7f189444b8f08ecb1d243" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "55f0e1554ea961a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302812245,
+        "stop" : 1669302822401,
+        "duration" : 10156
+      }
+    }, {
+      "uid" : "81c0b2ec9af2c618",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669301646741,
+        "stop" : 1669301648554,
+        "duration" : 1813
+      }
+    } ]
+  },
+  "671356ac38b58ac88c25071782823bce" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "aedc05bc52b1223",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669302833579,
+        "stop" : 1669302835168,
+        "duration" : 1589
+      }
+    }, {
+      "uid" : "874f2eddbb2ae80e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669301649740,
+        "stop" : 1669301650832,
+        "duration" : 1092
+      }
+    } ]
+  },
+  "7df52ec5bf8a05626cdb7f46a92efd0d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "9a26c4bdf53416d8",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669302810782,
+        "stop" : 1669302812173,
+        "duration" : 1391
+      }
+    }, {
+      "uid" : "12bf1e87b8e39add",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301636685,
+        "stop" : 1669301646663,
+        "duration" : 9978
+      }
+    } ]
+  },
+  "66568f44e79a3f796d1459b0efee460b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "406e722430b9e8d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302837270,
+        "stop" : 1669302846987,
+        "duration" : 9717
+      }
+    }, {
+      "uid" : "f1aa56239466cff2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301662942,
+        "stop" : 1669301672540,
+        "duration" : 9598
+      }
+    } ]
+  },
+  "fe9ed98b300ce296224dff20cd9dd262" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e5f67fb413c20776",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302668188,
+        "stop" : 1669302669227,
+        "duration" : 1039
+      }
+    }, {
+      "uid" : "3b38088d519fb6eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301501105,
+        "stop" : 1669301507221,
+        "duration" : 6116
+      }
+    } ]
+  },
+  "e7d10a5f6bf349e88a8fea4c68225775" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f7cbee89c8c6b5bd",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302663393,
+        "stop" : 1669302665970,
+        "duration" : 2577
+      }
+    }, {
+      "uid" : "cb05f3e67a7cdba",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301491925,
+        "stop" : 1669301494223,
+        "duration" : 2298
+      }
+    } ]
+  },
+  "415103025b3cd423043c4c7768ac12d5" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "37c879e73950dd66",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-global-location-popover-link`, but never found it.",
+      "time" : {
+        "start" : 1669302933085,
+        "stop" : 1669302941210,
+        "duration" : 8125
+      }
+    }, {
+      "uid" : "d470bf9304895b2b",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-global-location-popover-link`, but never found it.",
+      "time" : {
+        "start" : 1669301760923,
+        "stop" : 1669301766937,
+        "duration" : 6014
+      }
+    } ]
+  },
+  "d38e5632d5001527fcef412dac37856e" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "2412b7fc3943420e",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302787253,
+        "stop" : 1669302788323,
+        "duration" : 1070
+      }
+    }, {
+      "uid" : "3d1301eb2ece7c18",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301610689,
+        "stop" : 1669301611863,
+        "duration" : 1174
+      }
+    } ]
+  },
+  "393853006fc989efdb7a8f4a64653a7c" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "afaeeba05c7052cc",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.",
+      "time" : {
+        "start" : 1669302677725,
+        "stop" : 1669302685496,
+        "duration" : 7771
+      }
+    }, {
+      "uid" : "f3651435231e1a36",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.",
+      "time" : {
+        "start" : 1669301514002,
+        "stop" : 1669301521911,
+        "duration" : 7909
+      }
+    } ]
+  },
+  "d8f2bc57a6caf277c499da8cf67e573e" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c2fc9caadfad9b71",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+      "time" : {
+        "start" : 1669302709303,
+        "stop" : 1669302710932,
+        "duration" : 1629
+      }
+    }, {
+      "uid" : "7c0d6b05e45f490",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+      "time" : {
+        "start" : 1669301545450,
+        "stop" : 1669301546448,
+        "duration" : 998
+      }
+    } ]
+  },
+  "6421eb46216778431d93aff815732a65" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c58f6eb439ef547f",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302781813,
+        "stop" : 1669302782833,
+        "duration" : 1020
+      }
+    }, {
+      "uid" : "176d7b3044d327ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301606223,
+        "stop" : 1669301609566,
+        "duration" : 3343
+      }
+    } ]
+  },
+  "7246b192466f481084f012ee45c1bd63" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "e78b84579aa47e88",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669302666027,
+        "stop" : 1669302667127,
+        "duration" : 1100
+      }
+    }, {
+      "uid" : "d7f2095d5aa154ef",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+      "time" : {
+        "start" : 1669301494275,
+        "stop" : 1669301495212,
+        "duration" : 937
+      }
+    } ]
+  },
+  "805f2880cf07ac52212aefdad8f4ebde" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "585827407e507116",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+      "time" : {
+        "start" : 1669302870377,
+        "stop" : 1669302871375,
+        "duration" : 998
+      }
+    }, {
+      "uid" : "4e9c2a26b964209",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#search > div.s-desktop-width-max.s-desktop-content.s-opposite-dir.s-wide-grid-style.sg-row > div.sg-col-20-of-24.s-matching-dir.sg-col-16-of-20.sg-col.sg-col-8-of-12.sg-col-12-of-16 > div > span.rush-component.s-latency-cf-section > div.s-main-slot.s-result-list.s-search-results.sg-row > div.a-section.a-spacing-none.s-result-item.s-flex-full-width.s-border-bottom-none.s-widget.s-widget-spacing-medium > div > div > div > div:nth-child(1) > span:nth-child(2)`, but never found it.",
+      "time" : {
+        "start" : 1669301698720,
+        "stop" : 1669301706321,
+        "duration" : 7601
+      }
+    } ]
+  },
+  "25e500190ae980fed9529e59e1c0c2a0" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "d4508ed7fe919d83",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+      "time" : {
+        "start" : 1669302868938,
+        "stop" : 1669302870305,
+        "duration" : 1367
+      }
+    }, {
+      "uid" : "4378d17b90b34b23",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+      "time" : {
+        "start" : 1669301696924,
+        "stop" : 1669301698652,
+        "duration" : 1728
+      }
+    } ]
+  },
+  "ce4279bcf5c174a2bbf32a05cf79412a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "31c9973e7511d3c5",
+      "status" : "failed",
+      "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+      "time" : {
+        "start" : 1669302835196,
+        "stop" : 1669302836183,
+        "duration" : 987
+      }
+    }, {
+      "uid" : "7253c69f38d2c3c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669301650862,
+        "stop" : 1669301661088,
+        "duration" : 10226
+      }
+    } ]
+  },
+  "4891ec7b9b0470ee271b00070532358d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e73e1256f13cb2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1669302736701,
+        "stop" : 1669302756485,
+        "duration" : 19784
+      }
+    } ]
+  }
+}

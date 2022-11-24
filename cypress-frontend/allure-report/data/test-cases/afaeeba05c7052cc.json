@@ -1,0 +1,796 @@
+{
+  "uid" : "afaeeba05c7052cc",
+  "name" : "Validar tentativa de cadastro com número de telefone inválido",
+  "fullName" : "Validar tentativa de cadastro com número de telefone inválido",
+  "historyId" : "393853006fc989efdb7a8f4a64653a7c",
+  "time" : {
+    "start" : 1669302677725,
+    "stop" : 1669302685496,
+    "duration" : 7771
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.\n    at BasePage.validarText (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:133:23)\n    at CadastroPage.validarMsgsErroEmailOuTelefoneInvalido (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:256:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:806:18)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:16454:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.\n    at BasePage.validarText (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:133:23)\n    at CadastroPage.validarMsgsErroEmailOuTelefoneInvalido (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:256:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:806:18)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Cadastro.feature:16454:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302677726,
+        "stop" : 1669302679286,
+        "duration" : 1560
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302677781,
+          "stop" : 1669302679286,
+          "duration" : 1505
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/G/01/csm/showads.v2.js?dfp=-ad-pixel-&action=getads&adsrc=.adbanner.&adslots=_adsense.&adserver=-ad-300x250.",
+        "time" : {
+          "start" : 1669302679285,
+          "stop" : 1669302679286,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /ah/ajax/counter?ctr=desktop_ajax_atf&exp=1669302797989&rId=3V3QSJR50G2G01Z0FP1K&mkId=A2Q3Y263D00KWC&h=39284633b1ca39bd6e482dd292e6e4bc7e990997b2568f65ba1fc45d377bab74",
+        "time" : {
+          "start" : 1669302679286,
+          "stop" : 1669302679286,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302679310,
+        "stop" : 1669302679313,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico em Fazer Login",
+      "time" : {
+        "start" : 1669302679313,
+        "stop" : 1669302680450,
+        "duration" : 1137
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #nav-link-accountList",
+        "time" : {
+          "start" : 1669302679314,
+          "stop" : 1669302679335,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302679335,
+          "stop" : 1669302679671,
+          "duration" : 336
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302679668,
+          "stop" : 1669302679668,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /gp/navigation/ajax/generic.html?wishlistItems=wishlist&metricKey=wishlistMetric&ajaxTemplate=wishlist&rid=3V3QSJR50G2G01Z0FP1K&_=1669302679444",
+        "time" : {
+          "start" : 1669302679669,
+          "stop" : 1669302679669,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://www.amazon.com.br/gp/product/sessionCacheUpdateHandler.html",
+        "time" : {
+          "start" : 1669302679669,
+          "stop" : 1669302679669,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://m.media-amazon.com/images/I/61a6AtMYuwL._SX1500_.jpg",
+        "time" : {
+          "start" : 1669302679669,
+          "stop" : 1669302679669,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/homepage/fallback/0163_BFCM_FALLBACK_dashcard_379x304._SY304_CB609037705_.jpg",
+        "time" : {
+          "start" : 1669302679670,
+          "stop" : 1669302679670,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_ORIGIN_1436033_2372171_186x116_1X_pt_BR_Version_1._SY116_CB637500706_.jpg",
+        "time" : {
+          "start" : 1669302679670,
+          "stop" : 1669302679670,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372174_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302679670,
+          "stop" : 1669302679670,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372172_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302679671,
+          "stop" : 1669302679671,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372173_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302679671,
+          "stop" : 1669302679671,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-books/2021/February/Lancamentos/Dashcard_379x304._SY304_CB660542680_.jpg",
+        "time" : {
+          "start" : 1669302679671,
+          "stop" : 1669302679671,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /gp/bia/external/bia-hcb-ajax-handler.html?biaHcbRid=3V3QSJR50G2G01Z0FP1K",
+        "time" : {
+          "start" : 1669302680446,
+          "stop" : 1669302680446,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=brflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&",
+        "time" : {
+          "start" : 1669302680446,
+          "stop" : 1669302680446,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302680446,
+          "stop" : 1669302680446,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico em Criar sua conta da Amazon",
+      "time" : {
+        "start" : 1669302680450,
+        "stop" : 1669302681495,
+        "duration" : 1045
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #createAccountSubmit",
+        "time" : {
+          "start" : 1669302680451,
+          "stop" : 1669302680468,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302680468,
+          "stop" : 1669302680652,
+          "duration" : 184
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com/aaut/verify/ap?options={\"clientData\":\"{\\\"sessionId\\\":\\\"140-6218071-2633702\\\",\\\"marketplaceId\\\":\\\"A2Q3Y263D00KWC\\\",\\\"rid\\\":\\\"WDA4Y6J49R3G35K2CWXR\\\",\\\"ubid\\\":\\\"130-2725922-1098829\\\",\\\"pageType\\\":\\\"AuthenticationPortal\\\",\\\"appAction\\\":\\\"SIGNIN_PWD_COLLECT\\\",\\\"subPageType\\\":\\\"SignInClaimCollect\\\"}\",\"challengeType\":null,\"locale\":\"pt-BR\",\"enableHeaderFooter\":true,\"enableBypassMechanism\":false,\"fwcimBlob\":null}",
+        "time" : {
+          "start" : 1669302680652,
+          "stop" : 1669302680652,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302680652,
+          "stop" : 1669302680652,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/ap/register?showRememberMe=true&openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=brflex&mobileBrowserWeblabTreatment=C&openid.return_to=https%3A%2F%2Fwww.amazon.com.br%2F%3Fref_%3Dnav_ya_signin&prevRID=WDA4Y6J49R3G35K2CWXR&openid.assoc_handle=brflex&openid.mode=checkid_setup&desktopBrowserWeblabTreatment=C&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
+        "time" : {
+          "start" : 1669302681492,
+          "stop" : 1669302681492,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And preencho campo com número de telefone inválido",
+      "time" : {
+        "start" : 1669302681495,
+        "stop" : 1669302682993,
+        "duration" : 1498
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #ap_customer_name",
+        "time" : {
+          "start" : 1669302681497,
+          "stop" : 1669302681518,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type Dorothy Nitzsche",
+        "time" : {
+          "start" : 1669302681518,
+          "stop" : 1669302682004,
+          "duration" : 486
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #ap_email",
+        "time" : {
+          "start" : 1669302682004,
+          "stop" : 1669302682023,
+          "duration" : 19
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type 1",
+        "time" : {
+          "start" : 1669302682023,
+          "stop" : 1669302682243,
+          "duration" : 220
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #ap_password",
+        "time" : {
+          "start" : 1669302682243,
+          "stop" : 1669302682277,
+          "duration" : 34
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type 123456",
+        "time" : {
+          "start" : 1669302682277,
+          "stop" : 1669302682613,
+          "duration" : 336
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #ap_password_check",
+        "time" : {
+          "start" : 1669302682613,
+          "stop" : 1669302682662,
+          "duration" : 49
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type 123456",
+        "time" : {
+          "start" : 1669302682662,
+          "stop" : 1669302682982,
+          "duration" : 320
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When clico no botão Continuar",
+      "time" : {
+        "start" : 1669302682993,
+        "stop" : 1669302684991,
+        "duration" : 1998
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #continue",
+        "time" : {
+          "start" : 1669302682999,
+          "stop" : 1669302683039,
+          "duration" : 40
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302683039,
+          "stop" : 1669302683268,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get https://www.amazon.com.br/ap/nocontent/ref=ap_mmoar_cont_other",
+        "time" : {
+          "start" : 1669302683267,
+          "stop" : 1669302683267,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "form sub --submitting form--",
+        "time" : {
+          "start" : 1669302683268,
+          "stop" : 1669302683268,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302683268,
+          "stop" : 1669302683268,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/ap/cvf/request?arb=9b451f91-458e-462f-bb9e-dbda256e9119",
+        "time" : {
+          "start" : 1669302684987,
+          "stop" : 1669302684987,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 204 /ap/nocontent/ref=ap_mmoar_cont_other",
+        "time" : {
+          "start" : 1669302684988,
+          "stop" : 1669302684988,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 7,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then devo visualizar mensagem de erro padrão 'Endereço de e-mail ou número de telefone celular inválido.'",
+      "time" : {
+        "start" : 1669302684991,
+        "stop" : 1669302685494,
+        "duration" : 503
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #auth-email-invalid-claim-alert",
+        "time" : {
+          "start" : 1669302684992,
+          "stop" : 1669302685494,
+          "duration" : 502
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com/aaut/verify/cvf?options={\"clientData\":\"{\\\"sessionId\\\":\\\"140-6218071-2633702\\\",\\\"marketplaceId\\\":\\\"A2Q3Y263D00KWC\\\"}\",\"challengeType\":\"ARKOSE_LEVEL_1\",\"locale\":\"pt-BR\",\"enableHeaderFooter\":false,\"enableBypassMechanism\":false}",
+        "time" : {
+          "start" : 1669302685494,
+          "stop" : 1669302685494,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com/aaut/verify/cvf?options=%7B%22clientData%22%3A%22%7B%5C%22sessionId%5C%22%3A%5C%22140-6218071-2633702%5C%22%2C%5C%22marketplaceId%5C%22%3A%5C%22A2Q3Y263D00KWC%5C%22%7D%22%2C%22challengeType%22%3A%22ARKOSE_LEVEL_1%22%2C%22locale%22%3A%22pt-BR%22%2C%22enableHeaderFooter%22%3Afalse%2C%22enableBypassMechanism%22%3Afalse%7D",
+        "time" : {
+          "start" : 1669302685494,
+          "stop" : 1669302685494,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 48,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Cadastro"
+  }, {
+    "name" : "feature",
+    "value" : "Cadastro"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste falhado",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "f3651435231e1a36",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#auth-email-invalid-claim-alert`, but never found it.",
+        "time" : {
+          "start" : 1669301514002,
+          "stop" : 1669301521911,
+          "duration" : 7909
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "afaeeba05c7052cc.json",
+  "parameterValues" : [ ]
+}

@@ -1,3 +1,10 @@
 [ {
-  "data" : { }
+  "data" : {
+    "Teste executado com sucesso" : 9,
+    "Teste falhado" : 20
+  }
+}, {
+  "data" : {
+    "Product defects" : 19
+  }
 } ]

@@ -1,0 +1,151 @@
+{
+  "uid" : "d408e84b5a0be862",
+  "name" : "Validar action \"ENTRAR\"",
+  "fullName" : "Validar action \"ENTRAR\"",
+  "historyId" : "21ffaee5bce54f22ab07fc23acc2b987",
+  "time" : {
+    "start" : 1669302779026,
+    "stop" : 1669302780712,
+    "duration" : 1686
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.\n    at BasePage.click (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:84:10)\n    at HomePage.clicarNoBtnInicioLogin (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:311:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:855:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:16454:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.\n    at BasePage.click (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:84:10)\n    at HomePage.clicarNoBtnInicioLogin (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:311:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:855:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Login.feature:16454:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302779031,
+        "stop" : 1669302780183,
+        "duration" : 1152
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302779032,
+          "stop" : 1669302780183,
+          "duration" : 1151
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302780200,
+        "stop" : 1669302780205,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When clico no botão 'Faça seu login'",
+      "time" : {
+        "start" : 1669302780205,
+        "stop" : 1669302780710,
+        "duration" : 505
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #nav-link-accountList",
+        "time" : {
+          "start" : 1669302780206,
+          "stop" : 1669302780710,
+          "duration" : 504
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login"
+  }, {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste falhado",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ea4f7107f72590b7",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-link-accountList`, but never found it.",
+        "time" : {
+          "start" : 1669301603372,
+          "stop" : 1669301605109,
+          "duration" : 1737
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d408e84b5a0be862.json",
+  "parameterValues" : [ ]
+}

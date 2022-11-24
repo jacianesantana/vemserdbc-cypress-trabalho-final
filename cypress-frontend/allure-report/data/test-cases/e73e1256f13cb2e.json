@@ -1,0 +1,1777 @@
+{
+  "uid" : "e73e1256f13cb2e",
+  "name" : "Validar checkbox no Carrinho com sucesso",
+  "fullName" : "Validar checkbox no Carrinho com sucesso",
+  "historyId" : "4891ec7b9b0470ee271b00070532358d",
+  "time" : {
+    "start" : 1669302736701,
+    "stop" : 1669302756485,
+    "duration" : 19784
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302736702,
+        "stop" : 1669302741565,
+        "duration" : 4863
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302736771,
+          "stop" : 1669302741564,
+          "duration" : 4793
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 202 /ah/ajax/counter?ctr=desktop_ajax_atf&exp=1669302857078&rId=DZEHDFXG0WAEA0DS36TM&mkId=A2Q3Y263D00KWC&h=6a18c8771c00adb72d51f8570dd35b98d0c6931fd4dc4ffb7cf6d9884be43d61",
+        "time" : {
+          "start" : 1669302741563,
+          "stop" : 1669302741563,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 204 https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302741563,
+          "stop" : 1669302741563,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/G/01/csm/showads.v2.js?dfp=-ad-pixel-&action=getads&adsrc=.adbanner.&adslots=_adsense.&adserver=-ad-300x250.",
+        "time" : {
+          "start" : 1669302741563,
+          "stop" : 1669302741563,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com.br/af/feedback-link?pl={\"adPlacementMetaData\":{\"pageUrl\":\"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici8/\",\"adElementId\":\"ape_Gateway_right-2_desktop_placement\",\"pageType\":\"Gateway\",\"slotName\":\"right-2\"},\"adCreativeMetaData\":{\"adProgramId\":\"1002\",\"adCreativeTemplateName\":\"Image\",\"adImpressionId\":\"https://aax-us-iad.amazon.com/e/xsp/imp?b=REzYjFOYJ3oS-ozmPsGUlmsAAAGEqjJYuwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICAmoC7L\",\"adCreativeId\":\"590330259448336932\",\"adId\":\"592663022350530772\",\"adNetwork\":\"cs\"}}",
+        "time" : {
+          "start" : 1669302741564,
+          "stop" : 1669302741564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /af/feedback-link?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici8%2F%22%2C%22adElementId%22%3A%22ape_Gateway_right-2_desktop_placement%22%2C%22pageType%22%3A%22Gateway%22%2C%22slotName%22%3A%22right-2%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A%221002%22%2C%22adCreativeTemplateName%22%3A%22Image%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DREzYjFOYJ3oS-ozmPsGUlmsAAAGEqjJYuwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICAmoC7L%22%2C%22adCreativeId%22%3A%22590330259448336932%22%2C%22adId%22%3A%22592663022350530772%22%2C%22adNetwork%22%3A%22cs%22%7D%7D",
+        "time" : {
+          "start" : 1669302741564,
+          "stop" : 1669302741564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com.br/af/feedback-link?pl={\"adPlacementMetaData\":{\"pageUrl\":\"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici8/\",\"adElementId\":\"ape_Gateway_desktop-ad-center-1_desktop_placement\",\"pageType\":\"Gateway\",\"slotName\":\"desktop-ad-center-1\"},\"adCreativeMetaData\":{\"adProgramId\":1002,\"adCreativeId\":590180230437078900,\"adNetwork\":\"cs\",\"adImpressionId\":\"https://aax-us-iad.amazon.com/e/xsp/imp?b=RFvsciQYp_6ZcRPDqtHQlOMAAAGEqjJYuwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICBlsfBo\",\"adCreativeTemplateName\":\"Image\",\"adId\":592963636013756300}}",
+        "time" : {
+          "start" : 1669302741564,
+          "stop" : 1669302741564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /af/feedback-link?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici8%2F%22%2C%22adElementId%22%3A%22ape_Gateway_desktop-ad-center-1_desktop_placement%22%2C%22pageType%22%3A%22Gateway%22%2C%22slotName%22%3A%22desktop-ad-center-1%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1002%2C%22adCreativeId%22%3A590180230437078900%2C%22adNetwork%22%3A%22cs%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DRFvsciQYp_6ZcRPDqtHQlOMAAAGEqjJYuwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICBlsfBo%22%2C%22adCreativeTemplateName%22%3A%22Image%22%2C%22adId%22%3A592963636013756300%7D%7D",
+        "time" : {
+          "start" : 1669302741564,
+          "stop" : 1669302741564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://www.amazon.com.br/gp/product/sessionCacheUpdateHandler.html",
+        "time" : {
+          "start" : 1669302741564,
+          "stop" : 1669302741564,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 9,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given tenho um produto adicionado no carrinho",
+      "time" : {
+        "start" : 1669302741750,
+        "stop" : 1669302754306,
+        "duration" : 12556
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #twotabsearchtextbox",
+        "time" : {
+          "start" : 1669302741753,
+          "stop" : 1669302741774,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type ryzen 7",
+        "time" : {
+          "start" : 1669302741774,
+          "stop" : 1669302742905,
+          "duration" : 1131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onfocus&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=0&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742902,
+          "stop" : 1669302742902,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=r&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=86&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742902,
+          "stop" : 1669302742902,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ry&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=87&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742902,
+          "stop" : 1669302742902,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryz&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=84&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742903,
+          "stop" : 1669302742903,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryze&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=82&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742903,
+          "stop" : 1669302742903,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryzen&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=76&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742904,
+          "stop" : 1669302742904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryzen &suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=73&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742904,
+          "stop" : 1669302742904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=r&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=%00&avg-ks-time=86&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742904,
+          "stop" : 1669302742904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryzen 7&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=\u0000&avg-ks-time=73&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742904,
+          "stop" : 1669302742904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ry&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=%00&avg-ks-time=87&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742904,
+          "stop" : 1669302742904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryz&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=%00&avg-ks-time=84&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302742904,
+          "stop" : 1669302742904,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #nav-search-submit-button",
+        "time" : {
+          "start" : 1669302742905,
+          "stop" : 1669302742921,
+          "duration" : 16
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302742922,
+          "stop" : 1669302743577,
+          "duration" : 655
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryze&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=%00&avg-ks-time=82&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302743576,
+          "stop" : 1669302743576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryzen%20&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=%00&avg-ks-time=73&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302743576,
+          "stop" : 1669302743576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "form sub --submitting form--",
+        "time" : {
+          "start" : 1669302743576,
+          "stop" : 1669302743576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://completion.amazon.com.br/api/2017/suggestions?limit=11&prefix=ryzen%207&suggestion-type=WIDGET&suggestion-type=KEYWORD&page-type=Gateway&alias=aps&site-variant=desktop&version=3&event=onkeypress&wc=&lop=pt_BR&last-prefix=%00&avg-ks-time=73&fb=1&session-id=132-1263688-4779857&request-id=DZEHDFXG0WAEA0DS36TM&mid=A2Q3Y263D00KWC&plain-mid=526970&client-info=amazon-search-ui",
+        "time" : {
+          "start" : 1669302743576,
+          "stop" : 1669302743576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302743576,
+          "stop" : 1669302743576,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302743577,
+          "stop" : 1669302743577,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get (\"[data-asin=\"B091J3NYVF\"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-spacing-base > .a-spacing-micro > .s-title-instructions-style > .a-size-mini > .a-link-normal > .a-size-base-plus\")",
+        "time" : {
+          "start" : 1669302743577,
+          "stop" : 1669302745249,
+          "duration" : 1672
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /gp/navigation/ajax/generic.html?wishlistItems=wishlist&metricKey=wishlistMetric&ajaxTemplate=wishlist&rid=DZEHDFXG0WAEA0DS36TM&_=1669302743559",
+        "time" : {
+          "start" : 1669302745248,
+          "stop" : 1669302745248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /af/feedback-link?pl=%7B%22adPlacementMetaData%22%3A%7B%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici8%2F%22%2C%22adElementId%22%3A%22ape_Gateway_right-7_desktop_placement%22%2C%22pageType%22%3A%22Gateway%22%2C%22slotName%22%3A%22right-7%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1001%2C%22adCreativeId%22%3A579201953324665200%2C%22adNetwork%22%3A%22cs%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DRL-y8c00IIjifj5Fie81dVcAAAGEqjJYuwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICALbJEd%22%2C%22adCreativeTemplateName%22%3A%22Image%22%2C%22adId%22%3A585775780906133500%7D%7D",
+        "time" : {
+          "start" : 1669302745248,
+          "stop" : 1669302745248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uncaught exception SyntaxError: Unexpected token < in JSON at position 0",
+        "time" : {
+          "start" : 1669302745248,
+          "stop" : 1669302745248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/s/ref=nb_sb_noss_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&url=search-alias%3Daps&field-keywords=ryzen+7&crid=X9GFZTWIW4K1&sprefix=ryze%2Caps%2C603",
+        "time" : {
+          "start" : 1669302745248,
+          "stop" : 1669302745248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/s?k=ryzen+7&__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=X9GFZTWIW4K1&sprefix=ryze%2Caps%2C603&ref=nb_sb_noss_2",
+        "time" : {
+          "start" : 1669302745248,
+          "stop" : 1669302745248,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get [data-asin=\"B091J3NYVF\"] > .sg-col-inner > .s-widget-container > .s-card-container > .a-spacing-base > .a-spacing-micro > .s-title-instructions-style > .a-size-mini > .a-link-normal > .a-size-base-plus",
+        "time" : {
+          "start" : 1669302745249,
+          "stop" : 1669302745249,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click {force: true}",
+        "time" : {
+          "start" : 1669302745249,
+          "stop" : 1669302745465,
+          "duration" : 216
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302745465,
+          "stop" : 1669302745465,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 204 https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302745465,
+          "stop" : 1669302751405,
+          "duration" : 5940
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get https://www.amazon.com.br/af/feedback-link?ie=UTF-8&pl={\"adPlacementMetaData\":{\"feedbackType\":\"loomSearch\",\"pageType\":\"Search\",\"slotName\":\"auto-left-advertising-1\"},\"adCreativeMetaData\":{\"adCreativeId\":\"586999707360339200\",\"adCreativeTemplateName\":\"image\",\"adId\":\"6385547601\",\"adImpressionId\":\"https://aax-us-iad.amazon.com/e/xsp/imp?b=RIfV3ufvuHwX9_zRDtSs4PEAAAGEqjJzMwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICBwYTPt\",\"adProgramId\":\"1002\",\"adNetwork\":\"cs\"}}",
+        "time" : {
+          "start" : 1669302751402,
+          "stop" : 1669302751402,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /af/feedback-link?ie=UTF-8&pl=%7B%22adPlacementMetaData%22%3A%7B%22feedbackType%22%3A%22loomSearch%22%2C%22pageType%22%3A%22Search%22%2C%22slotName%22%3A%22auto-left-advertising-1%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adCreativeId%22%3A%22586999707360339200%22%2C%22adCreativeTemplateName%22%3A%22image%22%2C%22adId%22%3A%226385547601%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DRIfV3ufvuHwX9_zRDtSs4PEAAAGEqjJzMwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICBwYTPt%22%2C%22adProgramId%22%3A%221002%22%2C%22adNetwork%22%3A%22cs%22%7D%7D",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get https://www.amazon.com.br/af/feedback-link?ie=UTF-8&pl={\"adPlacementMetaData\":{\"feedbackType\":\"loomSearch\",\"pageType\":\"Search\",\"slotName\":\"auto-bottom-advertising-0\"},\"adCreativeMetaData\":{\"adCreativeId\":\"592584258058739300\",\"adCreativeTemplateName\":\"responsiveecommerce\",\"adId\":\"576956856302083500\",\"adImpressionId\":\"https://aax-us-iad.amazon.com/e/xsp/imp?b=RNZ2Hx9XaAROHhhfK-oWKUUAAAGEqjJzMwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICDClqM-\",\"adProgramId\":\"1002\",\"adNetwork\":\"cs\"}}",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /af/feedback-link?ie=UTF-8&pl=%7B%22adPlacementMetaData%22%3A%7B%22feedbackType%22%3A%22loomSearch%22%2C%22pageType%22%3A%22Search%22%2C%22slotName%22%3A%22auto-bottom-advertising-0%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adCreativeId%22%3A%22592584258058739300%22%2C%22adCreativeTemplateName%22%3A%22responsiveecommerce%22%2C%22adId%22%3A%22576956856302083500%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DRNZ2Hx9XaAROHhhfK-oWKUUAAAGEqjJzMwEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICDClqM-%22%2C%22adProgramId%22%3A%221002%22%2C%22adNetwork%22%3A%22cs%22%7D%7D",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://aan.amazon.com/cem",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/Processador-AMD-Ryzen-5700G-Stealth/dp/B091J3NYVF/ref=sr_1_omk_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=X9GFZTWIW4K1&keywords=ryzen+7&qid=1669302743&qu=eyJxc2MiOiI0LjYwIiwicXNhIjoiMy4zMSIsInFzcCI6IjIuODgifQ%3D%3D&sprefix=ryze%2Caps%2C603&sr=8-2&ufe=app_do%3Aamzn1.fos.25548f35-0de7-44b3-b28e-0f56f3f96147",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/11ZsAb1tv9L._RC%7C11B3-fvRFzL.css_.css?AUIClients/AmazonUICalendar",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com.br/hz/primeacquisition/bbopupsellcontentslot?ASIN=B091J3NYVF&merchantID=A1KDYKBQYQ84UH&bbopruleID=Acquisition_AddToCart_PrimeBasicFreeTrialUpsellEligible&sbbopruleID=Acquisition_AddToCart_PrimeBasicFreeTrialUpsellEligible&deliveryOptions=[]&preorder=false&releaseDateDeliveryEligible=false&deliveryCountryCode=BR",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /hz/primeacquisition/bbopupsellcontentslot?ASIN=B091J3NYVF&merchantID=A1KDYKBQYQ84UH&bbopruleID=Acquisition_AddToCart_PrimeBasicFreeTrialUpsellEligible&sbbopruleID=Acquisition_AddToCart_PrimeBasicFreeTrialUpsellEligible&deliveryOptions=%5B%5D&preorder=false&releaseDateDeliveryEligible=false&deliveryCountryCode=BR",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://d2h8zr0m6mus4x.cloudfront.net/primesignup/package.json?_=1669302749172",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://www.amazon.com.br/gp/prime/pipeline/membersignup",
+        "time" : {
+          "start" : 1669302751403,
+          "stop" : 1669302751403,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "post https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "post https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 200 https://unagi-na.amazon.com/1/events/com.amazon.eel.SponsoredProductsEventTracking.prod",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com.br/af/feedback-link?pl={\"adPlacementMetaData\":{\"searchTerms\":\"cnl6ZW4gNw==\",\"pageUrl\":\"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici9Qcm9jZXNzYWRvci1BTUQtUnl6ZW4tNTcwMEctU3RlYWx0aC9kcC9CMDkxSjNOWVZGL3JlZj1zcl8xX29ta18yP19fbWtfcHRfQlI9JUMzJTg1TSVDMyU4NSVDNSVCRCVDMyU5NSVDMyU5MSZjcmlkPVg5R0ZaVFdJVzRLMSZrZXl3b3Jkcz1yeXplbis3JnFpZD0xNjY5MzAyNzQzJnF1PWV5SnhjMk1pT2lJMExqWXdJaXdpY1hOaElqb2lNeTR6TVNJc0luRnpjQ0k2SWpJdU9EZ2lmUSUzRCUzRCZzcHJlZml4PXJ5emUlMkNhcHMlMkM2MDMmc3I9OC0yJnVmZT1hcHBfZG8lM0FhbXpuMS5mb3MuMjU1NDhmMzUtMGRlNy00NGIzLWIyOGUtMGY1NmYzZjk2MTQ3\",\"adElementId\":\"ape_Detail_dp-ads-center-promo_Desktop_placement\",\"pageType\":\"Detail\",\"slotName\":\"dp-ads-center-promo\"},\"adCreativeMetaData\":{\"adProgramId\":1002,\"adCreativeId\":593600215779061500,\"adNetwork\":\"cs\",\"adImpressionId\":\"https://aax-us-iad.amazon.com/e/xsp/imp?b=RP-ltjQuPvkpbxgm6kOtmo8AAAGEqjJ5eQEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICC4Njrw\",\"adCreativeTemplateName\":\"Image\",\"adId\":588095801620542000}}",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /af/feedback-link?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22cnl6ZW4gNw%3D%3D%22%2C%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici9Qcm9jZXNzYWRvci1BTUQtUnl6ZW4tNTcwMEctU3RlYWx0aC9kcC9CMDkxSjNOWVZGL3JlZj1zcl8xX29ta18yP19fbWtfcHRfQlI9JUMzJTg1TSVDMyU4NSVDNSVCRCVDMyU5NSVDMyU5MSZjcmlkPVg5R0ZaVFdJVzRLMSZrZXl3b3Jkcz1yeXplbis3JnFpZD0xNjY5MzAyNzQzJnF1PWV5SnhjMk1pT2lJMExqWXdJaXdpY1hOaElqb2lNeTR6TVNJc0luRnpjQ0k2SWpJdU9EZ2lmUSUzRCUzRCZzcHJlZml4PXJ5emUlMkNhcHMlMkM2MDMmc3I9OC0yJnVmZT1hcHBfZG8lM0FhbXpuMS5mb3MuMjU1NDhmMzUtMGRlNy00NGIzLWIyOGUtMGY1NmYzZjk2MTQ3%22%2C%22adElementId%22%3A%22ape_Detail_dp-ads-center-promo_Desktop_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22dp-ads-center-promo%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1002%2C%22adCreativeId%22%3A593600215779061500%2C%22adNetwork%22%3A%22cs%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DRP-ltjQuPvkpbxgm6kOtmo8AAAGEqjJ5eQEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICC4Njrw%22%2C%22adCreativeTemplateName%22%3A%22Image%22%2C%22adId%22%3A588095801620542000%7D%7D",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com.br/af/feedback-link?pl={\"adPlacementMetaData\":{\"searchTerms\":\"cnl6ZW4gNw==\",\"pageUrl\":\"aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici9Qcm9jZXNzYWRvci1BTUQtUnl6ZW4tNTcwMEctU3RlYWx0aC9kcC9CMDkxSjNOWVZGL3JlZj1zcl8xX29ta18yP19fbWtfcHRfQlI9JUMzJTg1TSVDMyU4NSVDNSVCRCVDMyU5NSVDMyU5MSZjcmlkPVg5R0ZaVFdJVzRLMSZrZXl3b3Jkcz1yeXplbis3JnFpZD0xNjY5MzAyNzQzJnF1PWV5SnhjMk1pT2lJMExqWXdJaXdpY1hOaElqb2lNeTR6TVNJc0luRnpjQ0k2SWpJdU9EZ2lmUSUzRCUzRCZzcHJlZml4PXJ5emUlMkNhcHMlMkM2MDMmc3I9OC0yJnVmZT1hcHBfZG8lM0FhbXpuMS5mb3MuMjU1NDhmMzUtMGRlNy00NGIzLWIyOGUtMGY1NmYzZjk2MTQ3\",\"adElementId\":\"ape_Detail_customer-reviews-top_Glance_placement\",\"pageType\":\"Detail\",\"slotName\":\"customer-reviews-top\"},\"adCreativeMetaData\":{\"adProgramId\":1027,\"adNetwork\":\"cs\",\"adImpressionId\":\"https://aax-us-iad.amazon.com/e/xsp/imp?b=RDNXPCz0Ts_INla_irj6bIgAAAGEqjJ5eQEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICBLBB0P\",\"adCreativeTemplateName\":\"Dynamic eCommerce_SD_CI_BR_DESKTOP\",\"adId\":200101856653398}}",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302751404,
+          "stop" : 1669302751404,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #add-to-cart-button",
+        "time" : {
+          "start" : 1669302751405,
+          "stop" : 1669302751405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302751405,
+          "stop" : 1669302752405,
+          "duration" : 1000
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /af/feedback-link?pl=%7B%22adPlacementMetaData%22%3A%7B%22searchTerms%22%3A%22cnl6ZW4gNw%3D%3D%22%2C%22pageUrl%22%3A%22aHR0cHM6Ly93d3cuYW1hem9uLmNvbS5ici9Qcm9jZXNzYWRvci1BTUQtUnl6ZW4tNTcwMEctU3RlYWx0aC9kcC9CMDkxSjNOWVZGL3JlZj1zcl8xX29ta18yP19fbWtfcHRfQlI9JUMzJTg1TSVDMyU4NSVDNSVCRCVDMyU5NSVDMyU5MSZjcmlkPVg5R0ZaVFdJVzRLMSZrZXl3b3Jkcz1yeXplbis3JnFpZD0xNjY5MzAyNzQzJnF1PWV5SnhjMk1pT2lJMExqWXdJaXdpY1hOaElqb2lNeTR6TVNJc0luRnpjQ0k2SWpJdU9EZ2lmUSUzRCUzRCZzcHJlZml4PXJ5emUlMkNhcHMlMkM2MDMmc3I9OC0yJnVmZT1hcHBfZG8lM0FhbXpuMS5mb3MuMjU1NDhmMzUtMGRlNy00NGIzLWIyOGUtMGY1NmYzZjk2MTQ3%22%2C%22adElementId%22%3A%22ape_Detail_customer-reviews-top_Glance_placement%22%2C%22pageType%22%3A%22Detail%22%2C%22slotName%22%3A%22customer-reviews-top%22%7D%2C%22adCreativeMetaData%22%3A%7B%22adProgramId%22%3A1027%2C%22adNetwork%22%3A%22cs%22%2C%22adImpressionId%22%3A%22https%3A%2F%2Faax-us-iad.amazon.com%2Fe%2Fxsp%2Fimp%3Fb%3DRDNXPCz0Ts_INla_irj6bIgAAAGEqjJ5eQEAAAIfAQBOL0EgICAgICAgICAgICBOL0EgICAgICAgICAgICBLBB0P%22%2C%22adCreativeTemplateName%22%3A%22Dynamic%20eCommerce_SD_CI_BR_DESKTOP%22%2C%22adId%22%3A200101856653398%7D%7D",
+        "time" : {
+          "start" : 1669302752405,
+          "stop" : 1669302752405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "form sub --submitting form--",
+        "time" : {
+          "start" : 1669302752405,
+          "stop" : 1669302752405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://aan.amazon.com/cem",
+        "time" : {
+          "start" : 1669302752405,
+          "stop" : 1669302752405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302752405,
+          "stop" : 1669302752405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302752405,
+          "stop" : 1669302752405,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/31EFtqFUPbL._RC%7C21YblE14ZTL.js,01f8pq9lNGL.js,21E2aIDj6DL.js,31M1ip8KkoL.js,31YAhTeCFDL.js,01g2etah0NL.js,21Kr2VuOvSL.js,21R0uBpv5gL.js,31oAl8dJC2L.js,41uGet59l5L.js,41PCCMyDBzL.js,01WNBm1NhqL.js,41Txidc9dbL.js,317y9teRl2L.js,41RdsvM3q-L.js,71lnaM8NaVL.js,4123BTTtUrL.js,11LSI8IU0NL.js,412nrwABhFL.js,41lkyHEebjL.js,21NDIsf0a1L.js,111zW1Nhl9L.js,01jqyAujTwL.js,31+0pACITzL.js,61Napw9mN1L.js,21nBcYFuyhL.js,01RQtSMdG+L.js,01OtvpwikQL.js,01trOMcov6L.js,61vIx67CcoL.js,21v7Os12mhL.js,21F+2VGtGTL.js,11PUEGgF9FL.js,31UaW8zx0bL.js,01lcH4zcTaL.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,61u3NU7gQkL.js,519z6lXmvQL.js,017s5z---TL.js,11DbyV7EqEL.js,01IQoRXvpnL.js,01R7uttDWaL.js,01dISN2P6PL.js,01uSBjIDXbL.js,01WVAau8sBL.js,01mrvjIHzmL.js,01yrDq7zy5L.js,01fN1Y8iqzL.js,015o6sfRHyL.js,014kCoIHgIL.js,019W6kk1gjL.js,311A0yCIeJL.js,41-+Jm3uOOL.js,61huMNgF3YL.js,01acYp41-1L.js,51bvCzwcoHL.js,11QhkgYtwjL.js,01PQKs49DyL.js,01WQALympXL.js,21v9CfYDItL.js,21jjR7rDyjL.js,01r72Zm+VqL.js,41BF43Fzb7L.js,11Xxd-w8V7L.js,310iK-j-fuL.js,01q-Ep-UrEL.js,01gsBemrwzL.js,01GCLtg-iyL.js,314KUnfp3+L.js,51ATHU7J6aL.js,01tx7ThnHlL.js,01dJmwq51GL.js,01LBPfQ0IdL.js,013YkX6C2QL.js,21IQl4blS4L.js,01HPCJZdF6L.js,21YGYaudMkL.js,019MkidFEWL.js,01T2iqPIK-L.js,01ZuRUaOlqL.js,61HdhYalexL.js,21R4scfPaqL.js,01KqAleCuTL.js_.js?AUIClients/HardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP&+uX4o1kA",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/519z6lXmvQL.js?AUIClients/DetailPageMiraiAssets&1y6ftXKx",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/61s3q0pg1iL._RC%7C31XIpHrxWxL.js,01PQKs49DyL.js_.js?AUIClients/DetailPageDesktopImageBlockMetaAsset&BwTtR78R",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/61NeHXhGwSL._RC%7C11Y+5x+kkTL.js,51fH61+ExwL.js,11yKORv-GTL.js,11giXtZCwVL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11aKqyRXooL.js,11OREnu1epL.js,11qVTZscrRL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01wGRCg6A5L.js_.js?AUIClients/AmazonUI&KK9dlo3A",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/21E2aIDj6DL._RC%7C31M1ip8KkoL.js,31YAhTeCFDL.js,01g2etah0NL.js,31Nb5hZQizL.js,21Kr2VuOvSL.js,21R0uBpv5gL.js,31oAl8dJC2L.js,41uGet59l5L.js,41PCCMyDBzL.js,01bNPgr1YfL.js,21YGHEO9lkL.js,31RhPrhvU7L.js,01TQyo0bnIL.js,21gntUu2fQL.js,71lnaM8NaVL.js,01WNBm1NhqL.js,41Txidc9dbL.js,21mexLvHJtL.js,216Y5JcOfSL.js,01X5C8pWB1L.js,01NM5eWfPmL.js,41lkyHEebjL.js,11oGaoYgbdL.js,01JzE3-DfLL.js,111zW1Nhl9L.js,01jqyAujTwL.js,31+0pACITzL.js,01OtvpwikQL.js,01trOMcov6L.js,11LSI8IU0NL.js,412nrwABhFL.js,11p0nLfNCcL.js,11iHZuQapKL.js,11PUEGgF9FL.js,31EFtqFUPbL.js,21YblE14ZTL.js,01f8pq9lNGL.js,61-EsEIuJmL.js,013eoEBTVUL.js,016QFWAAdML.js,017s5z---TL.js,019W6kk1gjL.js,311A0yCIeJL.js,41-+Jm3uOOL.js,61huMNgF3YL.js,01PQKs49DyL.js,21v9CfYDItL.js,21jjR7rDyjL.js,01r72Zm+VqL.js,11qajewhV-L.js,51yKEFJ8SzL.js,01j5DeZSMzL.js,41yGIeBtQ0L.js,31IpDiN7OcL.js,01GCLtg-iyL.js,314KUnfp3+L.js,51ATHU7J6aL.js,01tx7ThnHlL.js,01dJmwq51GL.js,21IQl4blS4L.js,01HPCJZdF6L.js,519z6lXmvQL.js,21YGYaudMkL.js,019MkidFEWL.js,61HdhYalexL.js,21R4scfPaqL.js,01KqAleCuTL.js_.js?AUIClients/MediaDetailPageMetaAsset_TURBO_DESKTOP&huqQK0OP",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/61-EsEIuJmL.js?AUIClients/DetailPageSnSAssets&lqgSMGcn",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/31eBswkOYfL.css?AUIClients/DetailPageAllOffersDisplayAssets",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/31QRyhGUlgL._RC%7C31Nb5hZQizL.js,316nVZ1c+gL.js,21u1PnPEsML.js,31g08S0WEGL.js,01ZF+ovNflL.js,21Mw0htLzNL.js,318rs4piGPL.js,11ISJZDdTuL.js,01TQyo0bnIL.js,21gntUu2fQL.js,01jEqq6I0UL.js,013NxCyC-FL.js,61vJNtxMsKL.js,21mexLvHJtL.js,216Y5JcOfSL.js,01X5C8pWB1L.js,01NM5eWfPmL.js,11oGaoYgbdL.js,0193uyIciNL.js,41fW1gpnNZL.js,41-HaL9z2UL.js,11p0nLfNCcL.js,01s9HEfbt3L.js,11iHZuQapKL.js,015TRQC5i+L.js,01JzE3-DfLL.js,6181fgtPhlL.js,01I+ls4AqQL.js,01XEEGOr+kL.js,11MZZj83i0L.js,01PQKs49DyL.js,11qajewhV-L.js,412nrwABhFL.js,51yKEFJ8SzL.js,01j5DeZSMzL.js,41yGIeBtQ0L.js,31IpDiN7OcL.js,11LSI8IU0NL.js,01dJmwq51GL.js,01GdGebKBSL.js_.js?AUIClients/HardlinesDetailPageMetaAssetFixed&y0Q54t/a",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/01I3s4SlPiL._RC%7C21mexLvHJtL.js,216Y5JcOfSL.js,01Gujc1zuyL.js,513ebq+qBEL.js_.js?AUIClients/DetailPageMetaAssetFixed&IVmKseXK",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/51ynEu0s2wL._RC%7C41iT202EX5L.css,315GMAwkLiL.css,11IHgGpY28L.css,218Y6Z0tipL.css,01rdVnPkgmL.css,01KvCqKMBgL.css,11dsywhn-BL.css,51NVMnqhh+L.css,21LLdt69ldL.css,21jNhNxHFBL.css,110bDm03-zL.css,11mBY91Tk3L.css,01vUDet4b1L.css,01BSXdi4jbL.css,01CKJhJm3ZL.css,31l-Nc5zsiL.css,01FtAuFRr3L.css,11kmwdXfY5L.css,01bkkYjxP7L.css,01NW8VTUeVL.css,01TRklY0EKL.css,011uHgmxBfL.css,01DMQNFrEtL.css,211EHwuLWIL.css,31TJtSmBkXL.css,21PjfsP9YvL.css,114HJAY+ShL.css,21qSuPeiQWL.css,21VgVEzltcL.css,21ZjVyQPjML.css,014dX1UuNxL.css,31YeUjpBngL.css,018CevqcjhL.css,013dPvH-4JL.css,017KStdmPkL.css,21S-fMo6LAL.css,01TrKJuj6JL.css,21-1CDsoZDL.css,01P0iSwDaIL.css,01eviB7YqCL.css,01NO+deJm-L.css,61Cos99g37L.css,01goIIPoVxL.css_.css?AUIClients/MediaDetailPageMetaAsset_TURBO_DESKTOP&5w0DZpFx",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/01rg6Ce9FhL.js?AUIClients/DetailPageEverywhereMetaAsset",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/01P3Q8N753L.css?AUIClients/DetailPageEverywhereMetaAsset",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/11ZsAb1tv9L._RC%7C11B3-fvRFzL.css_.css?AUIClients/AmazonUICalendar",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/11XQDILn5QL._RC%7C31EFtqFUPbL.js,21YblE14ZTL.js,01f8pq9lNGL.js,21E2aIDj6DL.js,31M1ip8KkoL.js,31YAhTeCFDL.js,01g2etah0NL.js,31Nb5hZQizL.js,21Kr2VuOvSL.js,21R0uBpv5gL.js,31oAl8dJC2L.js,41uGet59l5L.js,41PCCMyDBzL.js,21u1PnPEsML.js,31MdWk+AjzL.js,316nVZ1c+gL.js,01AdYLY9rHL.js,01IOMCsVFCL.js,317y9teRl2L.js,41RdsvM3q-L.js,01TQyo0bnIL.js,21gntUu2fQL.js,71lnaM8NaVL.js,01WNBm1NhqL.js,41Txidc9dbL.js,21mexLvHJtL.js,216Y5JcOfSL.js,01X5C8pWB1L.js,01NM5eWfPmL.js,41lkyHEebjL.js,11oGaoYgbdL.js,01HmcbFsnFL.js,01JzE3-DfLL.js,31sG+M5QN5L.js,111zW1Nhl9L.js,01I+ls4AqQL.js,01jqyAujTwL.js,31+0pACITzL.js,01OrQ5AXqsL.js,11DGcrZsUwL.js,01OtvpwikQL.js,01trOMcov6L.js,11PUEGgF9FL.js,01S8y9NkxoL.js,01ZF+ovNflL.js,21Mw0htLzNL.js,61-EsEIuJmL.js,013eoEBTVUL.js,01YivelYW5L.js,016QFWAAdML.js,017s5z---TL.js,01R7uttDWaL.js,01dISN2P6PL.js,01uSBjIDXbL.js,01WVAau8sBL.js,01mrvjIHzmL.js,01yrDq7zy5L.js,01fN1Y8iqzL.js,019W6kk1gjL.js,01lcH4zcTaL.js,01acYp41-1L.js,311A0yCIeJL.js,41-+Jm3uOOL.js,61huMNgF3YL.js,412nrwABhFL.js,01XEEGOr+kL.js,01PQKs49DyL.js,21v9CfYDItL.js,21jjR7rDyjL.js,01r72Zm+VqL.js,31QRyhGUlgL.js,01gsBemrwzL.js,11qajewhV-L.js,51yKEFJ8SzL.js,01j5DeZSMzL.js,41yGIeBtQ0L.js,31IpDiN7OcL.js,11LSI8IU0NL.js,01GCLtg-iyL.js,314KUnfp3+L.js,51ATHU7J6aL.js,01tx7ThnHlL.js,01dJmwq51GL.js,21IQl4blS4L.js,01HPCJZdF6L.js,519z6lXmvQL.js,21YGYaudMkL.js,019MkidFEWL.js,61HdhYalexL.js,21R4scfPaqL.js,01KqAleCuTL.js_.js?AUIClients/SoftlinesDetailPageMetaAsset_TURBO_DESKTOP&epSieXtY",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/51ynEu0s2wL._RC%7C11bRdV2t20L.css,51NWUE8RkuL.css,01yG3SOiiQL.css,218Y6Z0tipL.css,21ByukFKG4L.css,01N8OOpUZPL.css,0121zKjk26L.css,311INVROOGL.css,01IWLLAAyHL.css,11xRy3bSkOL.css,01QUs5FVXoL.css,110bDm03-zL.css,41vOQb1k0LL.css,01CKJhJm3ZL.css,01FtAuFRr3L.css,01rgQ3jqo7L.css,21RvZB4PNLL.css,31TJtSmBkXL.css,11X8K4AolpL.css,21PjfsP9YvL.css,21W5fiSj06L.css,31cE7qTuwaL.css,015FNYa5WbL.css,013xUOpG70L.css,017KStdmPkL.css,211EHwuLWIL.css,21S-fMo6LAL.css,01TrKJuj6JL.css,21-1CDsoZDL.css,01P0iSwDaIL.css,01DMQNFrEtL.css,01NO+deJm-L.css,010PbncAydL.css_.css?AUIClients/HardlinesDetailPageMetaAssetFixed&GmR8sOUr",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/61Cos99g37L.css?AUIClients/DetailPageMiraiAssets&1y6ftXKx",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/11EIQ5IGqaL._RC%7C01ZTHTZObnL.css,41C-I1lXVwL.css,31ufSReDtSL.css,013z33uKh2L.css,017DsKjNQJL.css,0131vqwP5UL.css,41EWOOlBJ9L.css,11TIuySqr6L.css,01ElnPiDxWL.css,11Qjwq-j69L.css,01Dm5eKVxwL.css,01IdKcBuAdL.css,01y-XAlI+2L.css,21P6CS3L9LL.css,01oDR3IULNL.css,41CYNGpGlrL.css,01XPHJk60-L.css,01smHc51S9L.css,21aPhFy+riL.css,11gneA3MtJL.css,21fecG8pUzL.css,11a5wZbuKrL.css,01CFUgsA-YL.css,31C80IiXalL.css,11qour3ND0L.css,11gKCCKQV+L.css,11061HxnEvL.css,11oHt2HYxnL.css,01uPgw4sNAL.css,11JQtnL-6eL.css,116v6uYvN6L.css,11jtXRmppwL.css,01QrWuRrZ-L.css,21zuRztKjtL.css,11QyqG8yiqL.css,11K24eOJg4L.css,11F2+OBzLyL.css,01890+Vwk8L.css,11Y05DTEL6L.css,01cbS3UK11L.css,21F85am0yFL.css,01giMEP+djL.css_.css?AUIClients/AmazonUI&9gt1RGxI",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/11YKfEvO81L.css?AUIClients/DetailPageDesktopImageBlockMetaAsset",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/31cu23aPw1L.js?AUIClients/AmazonUICalendar",
+        "time" : {
+          "start" : 1669302754303,
+          "stop" : 1669302754303,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/41B1A5XDyrL.css?AUIClients/DetailPageDesktopConfiguratorMetaAsset&mFf8eXdg",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/21qSuPeiQWL._RC%7C315GMAwkLiL.css,11IHgGpY28L.css,01rdVnPkgmL.css,01KvCqKMBgL.css,11dsywhn-BL.css,51NVMnqhh+L.css,01vUDet4b1L.css,01BSXdi4jbL.css,212CVi6Kx0L.css,21Oc5IYIz8L.css,11mBY91Tk3L.css,419+eoM+IGL.css,01DMQNFrEtL.css,211EHwuLWIL.css,31l-Nc5zsiL.css,31dTK1hHb6L.css,11kmwdXfY5L.css,01bkkYjxP7L.css,31uAsTl9xiL.css,01NW8VTUeVL.css,01TRklY0EKL.css,011uHgmxBfL.css,41KRANV33FL.css,31Xq0DzIe3L.css,114HJAY+ShL.css,01wkbZw3FtL.css,21ZjVyQPjML.css,01OhA16ND1L.css,41Nv7h2dX3L.css,61Cos99g37L.css,01tR9Azw7NL.css,11ikU6MX1JL.css,01U22TK7kxL.css,01ZcdNKBOIL.css,014dX1UuNxL.css,31YeUjpBngL.css,01AT3O0C6cL.css,11XiN4A5CHL.css,21TKIsd9wCL.css,01adN84djtL.css,013dPvH-4JL.css,01+KRP2j52L.css,01lHBbKIwtL.css,01eviB7YqCL.css,01NO+deJm-L.css,01goIIPoVxL.css_.css?AUIClients/HardlinesDetailPageMetaAssetVariable_TURBO_DESKTOP&mvx5XAYA",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/91PbjhcfD0L.js?AUIClients/GestaltDetailPageDesktopMetaAsset",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/01xYoNpncfL.js?AUIClients/MorpheusPopularityRankSidesheetAssets",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/61fvxJ6WMUL.js?AUIClients/DetailPageAllOffersDisplayAssets&z6zUPj3k",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/51ynEu0s2wL._RC%7C11bRdV2t20L.css,41j52RQ1GmL.css,21qSuPeiQWL.css,315GMAwkLiL.css,11IHgGpY28L.css,218Y6Z0tipL.css,01rdVnPkgmL.css,01KvCqKMBgL.css,11dsywhn-BL.css,51NVMnqhh+L.css,01N8OOpUZPL.css,21J7Iq+g4NL.css,21ByukFKG4L.css,01owcZSXXIL.css,0121zKjk26L.css,212CVi6Kx0L.css,21Oc5IYIz8L.css,110bDm03-zL.css,11mBY91Tk3L.css,01vUDet4b1L.css,01BSXdi4jbL.css,01CKJhJm3ZL.css,31l-Nc5zsiL.css,01FtAuFRr3L.css,01QLwk8mu6L.css,11kmwdXfY5L.css,01bkkYjxP7L.css,018mGORJ7tL.css,01NW8VTUeVL.css,01TRklY0EKL.css,011uHgmxBfL.css,114HJAY+ShL.css,01wL78bNyyL.css,01IWLLAAyHL.css,21VgVEzltcL.css,21ZjVyQPjML.css,01OhA16ND1L.css,01wkbZw3FtL.css,01AT3O0C6cL.css,014dX1UuNxL.css,31YeUjpBngL.css,211EHwuLWIL.css,015FNYa5WbL.css,013dPvH-4JL.css,01yG3SOiiQL.css,017KStdmPkL.css,21S-fMo6LAL.css,01TrKJuj6JL.css,21-1CDsoZDL.css,01P0iSwDaIL.css,01DMQNFrEtL.css,01eviB7YqCL.css,01NO+deJm-L.css,61Cos99g37L.css,01goIIPoVxL.css_.css?AUIClients/SoftlinesDetailPageMetaAsset_TURBO_DESKTOP&INqnegCt",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/21VgVEzltcL.css?AUIClients/DetailPageSnSAssets&DfKKznkU",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://m.media-amazon.com/images/I/51123Wl8EZL.js?AUIClients/DetailPageDesktopConfiguratorMetaAsset",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/cart/add-to-cart/ref=dp_start-bbf_1_glance",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET https://www.amazon.com.br/cart/ewc/compact?hostPageType=ShoppingCartAdd&hostSubPageType=SmartWagonFullPage&hostPageRID=CPD6QBKPY47FCFNJTQ16&prerender=0&freshCartCount=0&almCartCount=0&primeWardrobeCartCount=0&widerCompactView=false&_=1669302754137",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/I/01j2xsQ1yML._RC%7C01CKJhJm3ZL.css,01bTUA+3s-L.css,0177bwe-CKL.css_.css?AUIClients/DetailPageMetaAssetFixed&1xElI2BN",
+        "time" : {
+          "start" : 1669302754304,
+          "stop" : 1669302754304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 91,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico em Carrinho",
+      "time" : {
+        "start" : 1669302754306,
+        "stop" : 1669302755972,
+        "duration" : 1666
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #nav-cart",
+        "time" : {
+          "start" : 1669302754307,
+          "stop" : 1669302754339,
+          "duration" : 32
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302754339,
+          "stop" : 1669302755046,
+          "duration" : 707
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/cart/smart-wagon?newItems=7af02d52-c1c8-45a4-8093-d0a40611659b,1",
+        "time" : {
+          "start" : 1669302755046,
+          "stop" : 1669302755046,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302755046,
+          "stop" : 1669302755046,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302755046,
+          "stop" : 1669302755046,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/gp/cart/view.html?ref_=nav_cart",
+        "time" : {
+          "start" : 1669302755968,
+          "stop" : 1669302755968,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When clico em checkbox presente",
+      "time" : {
+        "start" : 1669302755972,
+        "stop" : 1669302756401,
+        "duration" : 429
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .sc-invisible-when-no-js > .a-checkbox > label > .a-label",
+        "time" : {
+          "start" : 1669302755972,
+          "stop" : 1669302756008,
+          "duration" : 36
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302756008,
+          "stop" : 1669302756397,
+          "duration" : 389
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then devo visualizar o checkbox selecionado no carrinho",
+      "time" : {
+        "start" : 1669302756401,
+        "stop" : 1669302756485,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .sc-invisible-when-no-js > .a-checkbox > label > input",
+        "time" : {
+          "start" : 1669302756402,
+          "stop" : 1669302756441,
+          "duration" : 39
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "check",
+        "time" : {
+          "start" : 1669302756441,
+          "stop" : 1669302756484,
+          "duration" : 43
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 115,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Carrinho"
+  }, {
+    "name" : "feature",
+    "value" : "Carrinho"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e73e1256f13cb2e.json",
+  "parameterValues" : [ ]
+}

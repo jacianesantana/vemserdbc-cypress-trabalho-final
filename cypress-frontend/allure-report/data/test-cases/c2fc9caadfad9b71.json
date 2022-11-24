@@ -1,0 +1,151 @@
+{
+  "uid" : "c2fc9caadfad9b71",
+  "name" : "Validar inserção de produto no Carrinho com sucesso",
+  "fullName" : "Validar inserção de produto no Carrinho com sucesso",
+  "historyId" : "d8f2bc57a6caf277c499da8cf67e573e",
+  "time" : {
+    "start" : 1669302709303,
+    "stop" : 1669302710932,
+    "duration" : 1629
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.\n    at BasePage.preencherInput (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:96:10)\n    at HomePage.clicarProdutoTest (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:367:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:861:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:16454:35)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.\n    at BasePage.preencherInput (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:96:10)\n    at HomePage.clicarProdutoTest (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:367:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:861:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\Carrinho.feature:16454:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302709307,
+        "stop" : 1669302710378,
+        "duration" : 1071
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302709309,
+          "stop" : 1669302710378,
+          "duration" : 1069
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302710400,
+        "stop" : 1669302710405,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And pesquiso produto",
+      "time" : {
+        "start" : 1669302710405,
+        "stop" : 1669302710929,
+        "duration" : 524
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #twotabsearchtextbox",
+        "time" : {
+          "start" : 1669302710406,
+          "stop" : 1669302710929,
+          "duration" : 523
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Carrinho"
+  }, {
+    "name" : "feature",
+    "value" : "Carrinho"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste falhado",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7c0d6b05e45f490",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#twotabsearchtextbox`, but never found it.",
+        "time" : {
+          "start" : 1669301545450,
+          "stop" : 1669301546448,
+          "duration" : 998
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c2fc9caadfad9b71.json",
+  "parameterValues" : [ ]
+}

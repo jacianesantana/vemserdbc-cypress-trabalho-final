@@ -1,0 +1,150 @@
+{
+  "uid" : "31c9973e7511d3c5",
+  "name" : "Validar item da opção 'Comprar por Categoria' do menu Todos com sucesso",
+  "fullName" : "Validar item da opção 'Comprar por Categoria' do menu Todos com sucesso",
+  "historyId" : "ce4279bcf5c174a2bbf32a05cf79412a",
+  "time" : {
+    "start" : 1669302835196,
+    "stop" : 1669302836183,
+    "duration" : 987
+  },
+  "status" : "failed",
+  "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+  "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.\n    at BasePage.click (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:84:10)\n    at HomePage.clicarNoBtnMenuTodos (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:442:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:828:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:16454:35)",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+    "statusTrace" : "AssertionError: Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.\n    at BasePage.click (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:84:10)\n    at HomePage.clicarNoBtnMenuTodos (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:442:16)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:828:12)\n    at Context.resolveAndRunStepDefinition (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:17133:29)\n    at Context.eval (https://www.amazon.com.br/__cypress/tests?p=cypress\\integration\\features\\MenuTodos.feature:16454:35)",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302835196,
+        "stop" : 1669302835674,
+        "duration" : 478
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302835221,
+          "stop" : 1669302835674,
+          "duration" : 453
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302835684,
+        "stop" : 1669302835687,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico no menu Todos",
+      "time" : {
+        "start" : 1669302835686,
+        "stop" : 1669302836181,
+        "duration" : 495
+      },
+      "status" : "failed",
+      "steps" : [ {
+        "name" : "get #nav-hamburger-menu",
+        "time" : {
+          "start" : 1669302835687,
+          "stop" : 1669302836181,
+          "duration" : 494
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Menu Todos"
+  }, {
+    "name" : "feature",
+    "value" : "Menu Todos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste falhado",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "7253c69f38d2c3c3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1669301650862,
+          "stop" : 1669301661088,
+          "duration" : 10226
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "31c9973e7511d3c5.json",
+  "parameterValues" : [ ]
+}

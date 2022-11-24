@@ -1,0 +1,600 @@
+{
+  "uid" : "a8e5d421ed03a734",
+  "name" : "Validar opção 'Produtos em alta' do menu Todos com sucesso",
+  "fullName" : "Validar opção 'Produtos em alta' do menu Todos com sucesso",
+  "historyId" : "46aa695b0a17c497cd2591d721594717",
+  "time" : {
+    "start" : 1669302822479,
+    "stop" : 1669302833487,
+    "duration" : 11008
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302822479,
+        "stop" : 1669302824172,
+        "duration" : 1693
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302822556,
+          "stop" : 1669302824172,
+          "duration" : 1616
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 202 /ah/ajax/counter?ctr=desktop_ajax_atf&exp=1669302942774&rId=P2KGTMVNCQBYTY6R94TY&mkId=A2Q3Y263D00KWC&h=d3bea79ac81429b6919e5124735593b47059f75aa13e57d6fc2932a2df9960b9",
+        "time" : {
+          "start" : 1669302824171,
+          "stop" : 1669302824172,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/G/01/csm/showads.v2.js?dfp=-ad-pixel-&action=getads&adsrc=.adbanner.&adslots=_adsense.&adserver=-ad-300x250.",
+        "time" : {
+          "start" : 1669302824172,
+          "stop" : 1669302824172,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302824192,
+        "stop" : 1669302824195,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico no menu Todos",
+      "time" : {
+        "start" : 1669302824195,
+        "stop" : 1669302824475,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #nav-hamburger-menu",
+        "time" : {
+          "start" : 1669302824196,
+          "stop" : 1669302824206,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302824206,
+          "stop" : 1669302824470,
+          "duration" : 264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST /gp/product/sessionCacheUpdateHandler.html",
+        "time" : {
+          "start" : 1669302824468,
+          "stop" : 1669302824468,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://m.media-amazon.com/images/I/61a6AtMYuwL._SX1500_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/homepage/fallback/0163_BFCM_FALLBACK_dashcard_379x304._SY304_CB609037705_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_ORIGIN_1436033_2372171_186x116_1X_pt_BR_Version_1._SY116_CB637500706_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372174_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372172_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372173_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://images-na.ssl-images-amazon.com/images/G/32/br-books/2021/February/Lancamentos/Dashcard_379x304._SY304_CB660542680_.jpg",
+        "time" : {
+          "start" : 1669302824469,
+          "stop" : 1669302824469,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302824470,
+          "stop" : 1669302824470,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 11,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When clico em Produtos em alta",
+      "time" : {
+        "start" : 1669302824475,
+        "stop" : 1669302833458,
+        "duration" : 8983
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 5000",
+        "time" : {
+          "start" : 1669302824476,
+          "stop" : 1669302829481,
+          "duration" : 5005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /gp/navigation/ajax/generic.html?ajaxTemplate=hMenuDesktopFirstLayer&pageType=Gateway&hmDataAjaxHint=1&isFreshRegion=false&isFreshCustomer=false&isPrimeMember=false&isPrimeDay=false&isSmile=false&isBackup=false&firstName=false&navDeviceType=desktop&hashCustomerAndSessionId=abbac1595c95fad1f9b2015c2a41312e21fe4806&environmentVFI=AmazonNavigationCards%2Fdevelopment%40B6103368395-AL2_x86_64&languageCode=pt_BR&isExportMode=false",
+        "time" : {
+          "start" : 1669302829481,
+          "stop" : 1669302829481,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 /gp/navigation/ajax/generic.html?ajaxTemplate=hamburgerMainContent&pageType=Gateway&hmDataAjaxHint=1&navDeviceType=desktop&isSmile=0&isPrime=0&isBackup=false&hashCustomerAndSessionId=abbac1595c95fad1f9b2015c2a41312e21fe4806&isExportMode=false&languageCode=pt_BR&environmentVFI=AmazonNavigationCards%2Fdevelopment%40B6103368395-AL2_x86_64&secondLayerTreeName=fire_tv_stick%2Bamazon_music%2Bamazon_prime_video_T1%2BAplicativosAmazon%2Bkindleandebooks%2Bechoalexa%2Bgrocery%2Bautomotive%2Bbaby%2Bbeauty_and_hpc%2Bluggage%2Btoys%2BCasa_Jardim_LimpezaT1%2Bphones%2Bpc%2Bcozinha%2Belectronics%2Bsports%2Bhi_tools_and_hi%2Bdvd%2Bvideogames%2Blivros%2Boffice%2Bpets%2Bfashion%2Bkdp_gno",
+        "time" : {
+          "start" : 1669302829481,
+          "stop" : 1669302829481,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #hmenu-content > ul.hmenu.hmenu-visible > li:nth-child(4) > a",
+        "time" : {
+          "start" : 1669302829481,
+          "stop" : 1669302829567,
+          "duration" : 86
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302829567,
+          "stop" : 1669302829806,
+          "duration" : 239
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1669302829806,
+          "stop" : 1669302829806,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uncaught exception TypeError: b.cardModuleFactory is not a function",
+        "time" : {
+          "start" : 1669302833451,
+          "stop" : 1669302833451,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uncaught exception TypeError: b.cardModuleFactory is not a function",
+        "time" : {
+          "start" : 1669302833451,
+          "stop" : 1669302833451,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uncaught exception TypeError: b.cardModuleFactory is not a function",
+        "time" : {
+          "start" : 1669302833451,
+          "stop" : 1669302833451,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "uncaught exception TypeError: b.cardModuleFactory is not a function",
+        "time" : {
+          "start" : 1669302833451,
+          "stop" : 1669302833451,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302833452,
+          "stop" : 1669302833452,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "new url https://www.amazon.com.br/gp/movers-and-shakers/?ref_=nav_em_ms_0_1_1_4",
+        "time" : {
+          "start" : 1669302833452,
+          "stop" : 1669302833452,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 12,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then devo ser redirecionado para a página de Produtos em alta",
+      "time" : {
+        "start" : 1669302833458,
+        "stop" : 1669302833487,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #zg_banner_text",
+        "time" : {
+          "start" : 1669302833459,
+          "stop" : 1669302833481,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **<span#zg_banner_text.a-size-extra-large.a-color-base._p13n-zg-banner-landing-page-header_style_zgLandingPageBannerText__3HlJo>** to contain **Produtos em alta**",
+        "time" : {
+          "start" : 1669302833481,
+          "stop" : 1669302833481,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "url",
+        "time" : {
+          "start" : 1669302833481,
+          "stop" : 1669302833486,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **https://www.amazon.com.br/gp/movers-and-shakers/?ref_=nav_em_ms_0_1_1_4** to include **https://www.amazon.com.br/gp/movers-and-shakers/?ref_=**",
+        "time" : {
+          "start" : 1669302833486,
+          "stop" : 1669302833486,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "https://www.amazon.com.br/gp/movers-and-shakers/?ref_=nav_em_ms_0_1_1_4"
+        } ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 35,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Menu Todos"
+  }, {
+    "name" : "feature",
+    "value" : "Menu Todos"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "9d423e150d1841c0",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-hamburger-menu`, but never found it.",
+        "time" : {
+          "start" : 1669301648602,
+          "stop" : 1669301649699,
+          "duration" : 1097
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a8e5d421ed03a734.json",
+  "parameterValues" : [ ]
+}

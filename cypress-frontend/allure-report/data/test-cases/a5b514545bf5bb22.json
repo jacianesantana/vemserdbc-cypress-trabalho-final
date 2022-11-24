@@ -1,0 +1,597 @@
+{
+  "uid" : "a5b514545bf5bb22",
+  "name" : "Validar tentativa de Selecione o Endereço preenchendo campo com CEP invalido",
+  "fullName" : "Validar tentativa de Selecione o Endereço preenchendo campo com CEP invalido",
+  "historyId" : "28cd8fbe35aa2de90bb877ea4c0b9533",
+  "time" : {
+    "start" : 1669302914983,
+    "stop" : 1669302933027,
+    "duration" : 18044
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1669302914986,
+        "stop" : 1669302917168,
+        "duration" : 2182
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit https://www.amazon.com.br/",
+        "time" : {
+          "start" : 1669302915174,
+          "stop" : 1669302917167,
+          "duration" : 1993
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302917166,
+          "stop" : 1669302917166,
+          "duration" : 0
+        },
+        "status" : "failed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET 200 https://m.media-amazon.com/images/G/01/csm/showads.v2.js?dfp=-ad-pixel-&action=getads&adsrc=.adbanner.&adslots=_adsense.&adserver=-ad-300x250.",
+        "time" : {
+          "start" : 1669302917167,
+          "stop" : 1669302917167,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 202 /ah/ajax/counter?ctr=desktop_ajax_atf&exp=1669303035403&rId=5WAPN083ZFDFDGKVM3V7&mkId=A2Q3Y263D00KWC&h=a96d84887cad0e17cfe4a9b18097d3255e9ac5149bf6592b677bce1bcc619d1e",
+        "time" : {
+          "start" : 1669302917167,
+          "stop" : 1669302917167,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST https://unagi.amazon.com.br/1/events/com.amazon.csm.csa.prod",
+        "time" : {
+          "start" : 1669302917167,
+          "stop" : 1669302917167,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Given que estou na página Home",
+      "time" : {
+        "start" : 1669302917205,
+        "stop" : 1669302917208,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And clico em 'Selecione o endereço'",
+      "time" : {
+        "start" : 1669302917208,
+        "stop" : 1669302922438,
+        "duration" : 5230
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 5000",
+        "time" : {
+          "start" : 1669302917209,
+          "stop" : 1669302922212,
+          "duration" : 5003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "POST 404 /gp/product/sessionCacheUpdateHandler.html",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://m.media-amazon.com/images/I/61a6AtMYuwL._SX1500_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/homepage/fallback/0163_BFCM_FALLBACK_dashcard_379x304._SY304_CB609037705_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_ORIGIN_1436033_2372171_186x116_1X_pt_BR_Version_1._SY116_CB637500706_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372174_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372172_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://images-na.ssl-images-amazon.com/images/G/32/br-events/2022/gateway/fallback/XCM_CUTTLE_1436033_2372173_186x116_1X_pt_BR._SY116_CB637500735_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 200 https://images-na.ssl-images-amazon.com/images/G/32/br-books/2021/February/Lancamentos/Dashcard_379x304._SY304_CB660542680_.jpg",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "HEAD 204 https://completion.amazon.com.br/api/2017/suggestions",
+        "time" : {
+          "start" : 1669302922212,
+          "stop" : 1669302922212,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #nav-global-location-popover-link",
+        "time" : {
+          "start" : 1669302922213,
+          "stop" : 1669302922254,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302922254,
+          "stop" : 1669302922435,
+          "duration" : 181
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get https://www.amazon.com.br/portal-migration/hz/glow/get-rendered-address-selections?deviceType=desktop&pageType=Gateway&storeContext=NoStoreName&actionSource=desktop-modal",
+        "time" : {
+          "start" : 1669302922434,
+          "stop" : 1669302922434,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /portal-migration/hz/glow/get-rendered-address-selections?deviceType=desktop&pageType=Gateway&storeContext=NoStoreName&actionSource=desktop-modal",
+        "time" : {
+          "start" : 1669302922434,
+          "stop" : 1669302922434,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "GET /gp/navigation/ajax/generic.html?ajaxTemplate=hMenuDesktopFirstLayer&pageType=Gateway&hmDataAjaxHint=1&isFreshRegion=false&isFreshCustomer=false&isPrimeMember=false&isPrimeDay=false&isSmile=false&isBackup=false&firstName=false&navDeviceType=desktop&hashCustomerAndSessionId=13b178eaf3713a97a79aa7bab07cb487653e9fc1&environmentVFI=AmazonNavigationCards%2Fdevelopment%40B6103368395-AL2_x86_64&languageCode=pt_BR&isExportMode=false",
+        "time" : {
+          "start" : 1669302922434,
+          "stop" : 1669302922434,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "And preencho o campo com CEP inválido",
+      "time" : {
+        "start" : 1669302922438,
+        "stop" : 1669302927787,
+        "duration" : 5349
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 5000",
+        "time" : {
+          "start" : 1669302922439,
+          "stop" : 1669302927442,
+          "duration" : 5003
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #GLUXZipUpdateInput_0",
+        "time" : {
+          "start" : 1669302927442,
+          "stop" : 1669302927486,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "type 49063",
+        "time" : {
+          "start" : 1669302927486,
+          "stop" : 1669302927784,
+          "duration" : 298
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "When clico no botão Confirmar",
+      "time" : {
+        "start" : 1669302927787,
+        "stop" : 1669302933005,
+        "duration" : 5218
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "wait 5000",
+        "time" : {
+          "start" : 1669302927787,
+          "stop" : 1669302932792,
+          "duration" : 5005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "get #GLUXZipUpdate",
+        "time" : {
+          "start" : 1669302932792,
+          "stop" : 1669302932837,
+          "duration" : 45
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1669302932837,
+          "stop" : 1669302933002,
+          "duration" : 165
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "post https://www.amazon.com.br/portal-migration/hz/glow/address-change?actionSource=glow",
+        "time" : {
+          "start" : 1669302933002,
+          "stop" : 1669302933002,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 4,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Then devo receber mensagem de erro padrão 'Insira um CEP válido'",
+      "time" : {
+        "start" : 1669302933005,
+        "stop" : 1669302933027,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #GLUXZipError",
+        "time" : {
+          "start" : 1669302933006,
+          "stop" : 1669302933026,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "assert expected **<span#GLUXZipError.GLUX_Hidden>** to contain **Insira um CEP válido**",
+        "time" : {
+          "start" : 1669302933026,
+          "stop" : 1669302933026,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 35,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Selecione Endereco"
+  }, {
+    "name" : "feature",
+    "value" : "Selecione Endereco"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Teste executado com sucesso",
+      "matchedStatuses" : [ "passed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3d42a89149ffe5dc",
+        "status" : "failed",
+        "statusDetails" : "Timed out retrying after 500ms: Expected to find element: `#nav-global-location-popover-link`, but never found it.",
+        "time" : {
+          "start" : 1669301753844,
+          "stop" : 1669301760857,
+          "duration" : 7013
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a5b514545bf5bb22.json",
+  "parameterValues" : [ ]
+}
