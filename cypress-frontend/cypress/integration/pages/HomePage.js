@@ -19,6 +19,7 @@ let msgAddCarrinho = "#NATC_SMART_WAGON_CONF_MSG_SUCCESS > span";
 let msgCarrinhoVazio = "#sc-active-cart > div > div > div > h1"
 let msgRemoveItem = "#sc-item-aacfa5b5-05c5-48d9-86ac-5ad66a007b66 > div.a-section.a-spacing-none.ewc-wider-compact-view-only.ewc-item-actions > div.a-section.ewc-item-remove-msg";
 let btnRemoveCompra = ".sc-action-delete > .a-declarative > .a-color-link";
+let btnSelecioneEndereco = "#nav-global-location-popover-link";
 
 const pesquisaValida = "ryzen 7";   
 const pesquisaInvalida = "aoishdoiawyhrfoiqwuerphjqwlfdjqklrfjqpwore";
@@ -30,6 +31,10 @@ export default class HomePage{
 
     clicarNoBtnInicioLogin() {
         basePage.click(btnInicioLogin);
+    }
+
+    validarUrlHome() {
+        basePage.validarUrl("https://www.amazon.com.br/");
     }
 
     clicarNoBtnSearch() {
@@ -120,6 +125,10 @@ export default class HomePage{
 
     validarCheckbox(){
         cy.get('.sc-invisible-when-no-js > .a-checkbox > label > input').check()
+    }
+
+    clicarNoBtnSelecioneEndereco() {
+        basePage.click(btnSelecioneEndereco);
     }
 
 }

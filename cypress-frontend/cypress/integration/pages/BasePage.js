@@ -22,11 +22,9 @@ export default class BasePage {
        cy.get(element).type(text, {force:true})
     }
 
-
     apagarEPreencherInput(element, text){ 
       cy.get(element).clear().type(text)
     }
-
 
     apagarInput(element){ 
       cy.get(element).clear()

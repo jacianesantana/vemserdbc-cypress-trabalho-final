@@ -97,7 +97,14 @@ Then(/^devo receber mensagem de erro padrão 'Não encontramos uma conta associa
 	return true;
 });
 
+Given("que estou na página Home", ()=>{
+	homePage.validarUrlHome();
+});
+  
+And("clico em Fazer Login", ()=>{
+	homePage.clicarNoBtnInicioLogin();
+});
 
-
-
-
+And("clico em 'Selecione o endereço'", ()=>{
+	homePage.clicarNoBtnSelecioneEndereco();
+});
