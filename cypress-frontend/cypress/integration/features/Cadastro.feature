@@ -6,7 +6,7 @@ Feature: Cadastro
         And clico em Criar sua conta da Amazon
         And preencho todos os campos válidos e email válido
         When clico no botão Continuar
-        Then devo ser redirecionado para a página de Verificação de Email
+        Then devo ser redirecionado para a página de Validação
 
     Scenario: Validar cadastro com telefone com sucesso
         Given que estou na página Home
@@ -14,7 +14,7 @@ Feature: Cadastro
         And clico em Criar sua conta da Amazon
         And preencho todos os campos válidos e telefone válido
         When clico no botão Continuar
-        Then devo ser redirecionado para a página de Verificação de Email
+        Then devo ser redirecionado para a página de Validação
 
     Scenario: Validar tentativa de cadastro sem preencher campos obrigatórios
         Given que estou na página Home

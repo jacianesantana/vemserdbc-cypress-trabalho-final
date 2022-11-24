@@ -1,6 +1,7 @@
+/// <reference types="cypress" />
+
 import BasePage from "./BasePage";
 const basePage = new BasePage;
-
 
 const userLogin = "#ap_email";//#ap_custumer_name
 let msgErro = "#auth-error-message-box > div > h4";

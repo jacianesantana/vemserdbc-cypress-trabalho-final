@@ -15,14 +15,14 @@ Feature: Login
 #         When clico no botão 'Fazer login'
 #         Then devo estar logado no sistema e visualizar mensagem de boas vindas
 
-#    Scenario:  Validar login com número de telefone com sucesso
-#         Given que estou na página Home
-#         When clico no botão 'Faça seu login'
-#         And preencho campo com número de telefone válido
-#         When clico no botão 'Continuar'
-#         And preencho campo com senha válido
-#         When clico no botão 'Fazer login'
-#         Then devo estar logado no sistema e visualizar mensagem de boas vindas
+   Scenario:  Validar login com número de telefone com sucesso
+        Given que estou na página Home
+        When clico no botão 'Faça seu login'
+        And preencho campo com número de telefone válido
+        When clico no botão 'Continuar'
+        And preencho campo com senha válido
+        When clico no botão 'Fazer login'
+        Then devo estar logado no sistema e visualizar mensagem de boas vindas
 
     Scenario:  Validar tentativa de login com email inválido
         Given que estou na página Home

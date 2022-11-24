@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import BasePage from "./BasePage";
 const basePage = new BasePage;
 
@@ -133,12 +135,10 @@ export default class HomePage{
     }
 
     clicarNoBtnSelecioneEndereco() {
+        basePage.tempo(5000);
         basePage.click(btnSelecioneEndereco);
     }
 
-<<<<<<< HEAD
-
-=======
     validarCEPNaTela() {
         basePage.tempo(5000);
         basePage.validarText(btnSelecioneEndereco, cep.cep);
@@ -147,6 +147,5 @@ export default class HomePage{
     clicarNoBtnMenuTodos() {
         basePage.click(btnMenuTodos);
     }
->>>>>>> 6c3f2bcf077dc3ad91c101da3c46332b7fac9ef5
 
 }

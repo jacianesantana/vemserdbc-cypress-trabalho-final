@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import LoginPage from "../pages/LoginPage";
 const loginPage = new LoginPage;
 
@@ -52,4 +54,3 @@ And("preencho campo com número de telefone válido", ()=>{
 And("clico em Criar sua conta da Amazon", () => {
     loginPage.clicarNoBtnCriarConta();
 });
-

@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import BasePage from "./BasePage";
 const basePage = new BasePage;
 
@@ -11,10 +13,12 @@ let textMsgErroCEP = "#GLUXZipError";
 export default class SelecioneEnderecoPage {
 
     preencherCampoUmCEP() {
+        basePage.tempo(5000);
         basePage.preencherInput(campoUmCEP, cep.cepCampoUm);
     }
 
     preencherCampoUmCEPInvalido() {
+        basePage.tempo(5000);
         basePage.preencherInput(campoUmCEP, cep.cepCampoUmInvalido);
     }
 
@@ -27,6 +31,7 @@ export default class SelecioneEnderecoPage {
     }
 
     clicarNoBtnConfirmar() {
+        basePage.tempo(5000);
         basePage.click(btnConfirmar);
     }
 

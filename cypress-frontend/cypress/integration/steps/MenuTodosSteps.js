@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import MenuTodosPage from "../pages/MenuTodosPage";
 const menuTodosPage = new MenuTodosPage;
 

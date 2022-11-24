@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import BasePage from "./BasePage";
 const basePage = new BasePage;
 
@@ -15,7 +17,8 @@ let textMsgErroConfirmaSenhaVazio = "#auth-passwordCheck-missing-alert";
 let textMsgErroConfirmaSenhaInvalido = "#auth-password-mismatch-alert";
 let btnContinuar = "#continue";
 let textVerificaEmail = "#verification-code-form > div:nth-child(10) > div.a-row.a-spacing-small > h1";
-let textCaptchVerificaEmail = "#a-page > div > div > div > div > div.a-row.a-spacing-mini";
+let textCaptchaVerificaEmail = "#a-page > div > div > div > div > div.a-row.a-spacing-mini";
+let btnCaptcha = "#home_children_button";
 
 export default class CadastroPage {
 
@@ -52,13 +55,13 @@ export default class CadastroPage {
     }
 
     clicarNoBtnContinuar() {
-        basePage.clickForce(btnContinuar);
+        basePage.click(btnContinuar);
     }
 
-    validarPaginaCadastroComEmail() {
+    validarPaginaCadastro() {
         //basePage.validarText(textVerificaEmail, "Verificar o endereço de e-mail");
-        basePage.tempo(10000);
-        basePage.validarText(textCaptchVerificaEmail, "Resolva este quebra-cabeça para proteger sua conta");
+        basePage.tempo(5000);
+        
         basePage.validarUrl("https://www.amazon.com.br/ap/cvf/request?arb=");
     }
 
@@ -80,6 +83,5 @@ export default class CadastroPage {
         basePage.validarText(textMsgErroEmailOuTelefoneInvalido, 
             "Endereço de e-mail ou número de telefone celular errado ou inválido. Corrija e tente novamente.");
     }
-
 
 }

@@ -1,7 +1,7 @@
+/// <reference types="cypress" />
+
 import BasePage from "./BasePage";
 const basePage = new BasePage;
-
-import { cep } from '../../fixtures/massa-de-dados';
 
 let btnMaisVendidos = "#hmenu-content > ul.hmenu.hmenu-visible > li:nth-child(2) > a";
 let btnNovidades = "#hmenu-content > ul.hmenu.hmenu-visible > li:nth-child(3) > a";

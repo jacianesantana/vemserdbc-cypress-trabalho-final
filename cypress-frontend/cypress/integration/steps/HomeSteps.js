@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import HomePage from "../pages/HomePage";
 const homePage = new HomePage;
 
@@ -101,19 +103,6 @@ Then(/^devo visualizar o checkbox selecionado no carrinho$/, () => {
     homePage.validarCheckbox();
 });
 
-<<<<<<< HEAD
-
-Given("que estou na página Home", ()=>{
-	homePage.validarUrlHome();
-});
-  
-And("clico em Fazer Login", ()=>{
-	homePage.clicarNoBtnInicioLogin();
-});
-
-And("clico em 'Selecione o endereço'", ()=>{
-	homePage.clicarNoBtnSelecioneEndereco();
-=======
 And("preencho campo com email inválido", ()=>{
     ;
 });
@@ -124,5 +113,4 @@ When(/^clico no botão 'Continuar'$/, () => {
 
 Then(/^devo receber mensagem de erro padrão 'Não encontramos uma conta associada a este endereço de e-mail'$/, () => {
 	return true;
->>>>>>> 6c3f2bcf077dc3ad91c101da3c46332b7fac9ef5
 });

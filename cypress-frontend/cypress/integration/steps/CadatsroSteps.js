@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import CadastroPage from "../pages/CadastroPage";
 const cadastroPage = new CadastroPage;
 
@@ -55,8 +57,8 @@ context('Cadastro', () => {
         cadastroPage.clicarNoBtnContinuar();
     });
 
-    Then("devo ser redirecionado para a página de Verificação de Email", () => {
-        cadastroPage.validarPaginaCadastroComEmail();
+    Then("devo ser redirecionado para a página de Validação", () => {
+        cadastroPage.validarPaginaCadastro();
     });
 
     Then("devo visualizar mensagens de erro padrão", () => {

@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 import SelecioneEnderecoPage from "../pages/SelecioneEnderecoPage";
 const selecioneEnderedoPage = new SelecioneEnderecoPage;
 
